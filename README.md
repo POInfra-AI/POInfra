@@ -28,13 +28,8 @@ Our research began with **D2PPO**, which combines dispersive regularization for 
 - [2026/05] 🔥 **CoFlow** introduces coordinated few-step flow for offline multi-agent decision-making. [Paper](https://arxiv.org/abs/2605.01457) · [Project](https://guowei-zou.github.io/coflow/).
 - [2026/01] 🔥 The initial preprint of **OGPO**, released as DMPO, is available. The work is now accepted at **ACM MM 2026**. [Paper](https://arxiv.org/abs/2601.20701) · [Project](https://ogpo-project.github.io/).
 
-<details>
-<summary>More updates</summary>
-
 - [2025/10] 🔥 **DM1** introduces MeanFlow with dispersive regularization for one-step robotic manipulation. [Paper](https://arxiv.org/abs/2510.07865) · [Project](https://guowei-zou.github.io/dm1/).
 - [2025/08] 🔥 **D2PPO** introduces diffusion policy optimization with dispersive loss. The work is now accepted at **AAAI 2026**. [Paper](https://arxiv.org/abs/2508.02644) · [Project](https://guowei-zou.github.io/d2ppo/).
-
-</details>
 
 ## Key Research Directions
 
