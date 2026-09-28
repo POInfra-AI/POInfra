@@ -34,70 +34,70 @@
 <path d="M1442 569 L1450 574 L1442 579" fill="none" stroke="#63768f" stroke-width="2.5" />
 <rect x="64" y="228.0" width="248" height="151.04" rx="8" fill="#0f1928" stroke="#344456" stroke-width="1.5" />
 <text x="80" y="259.0" font-family="Arial" font-size="24" font-weight="bold" fill="#f1f5fa" text-anchor="start"><tspan x="80" y="259.0">Offline data</tspan></text>
-<text x="80" y="294.0" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="80" y="294.0">Demonstrations</tspan></text>
-<text x="80" y="322.0" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="80" y="322.0">Multi-agent</tspan><tspan x="80" y="350.0">trajectories</tspan></text>
+<text x="80" y="294.0" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="80" y="294.0">Demonstrations</tspan></text>
+<text x="80" y="322.0" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="80" y="322.0">Multi-agent</tspan><tspan x="80" y="350.0">trajectories</tspan></text>
 <rect x="64" y="402.08000000000004" width="248" height="151.04" rx="8" fill="#0f1928" stroke="#344456" stroke-width="1.5" />
 <text x="80" y="433.08000000000004" font-family="Arial" font-size="24" font-weight="bold" fill="#f1f5fa" text-anchor="start"><tspan x="80" y="433.08000000000004">Observations</tspan></text>
-<text x="80" y="468.08000000000004" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="80" y="468.08000000000004">Robot state and</tspan><tspan x="80" y="496.08000000000004">images</tspan></text>
-<text x="80" y="524.08" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="80" y="524.08">Agent observations</tspan></text>
+<text x="80" y="468.08000000000004" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="80" y="468.08000000000004">Robot state and</tspan><tspan x="80" y="496.08000000000004">images</tspan></text>
+<text x="80" y="524.08" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="80" y="524.08">Agent observations</tspan></text>
 <rect x="64" y="576.1600000000001" width="248" height="176" rx="8" fill="#0f1928" stroke="#344456" stroke-width="1.5" />
 <text x="80" y="607.1600000000001" font-family="Arial" font-size="24" font-weight="bold" fill="#f1f5fa" text-anchor="start"><tspan x="80" y="607.1600000000001">Environment</tspan><tspan x="80" y="637.1600000000001">interaction</tspan></text>
-<text x="80" y="672.1600000000001" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="80" y="672.1600000000001">Actions and feedback</tspan></text>
-<text x="80" y="700.1600000000001" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="80" y="700.1600000000001">Rewards and</tspan><tspan x="80" y="728.1600000000001">transitions</tspan></text>
+<text x="80" y="672.1600000000001" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="80" y="672.1600000000001">Actions and feedback</tspan></text>
+<text x="80" y="700.1600000000001" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="80" y="700.1600000000001">Rewards and</tspan><tspan x="80" y="728.1600000000001">transitions</tspan></text>
 <text x="80" y="797.6" font-family="Arial" font-size="18" font-weight="bold" fill="#63bda3" text-anchor="start"><tspan x="80" y="797.6">APPLICATIONS</tspan></text>
 <text x="80" y="841.12" font-family="Arial" font-size="21" font-weight="normal" fill="#d7e3ef" text-anchor="start"><tspan x="80" y="841.12">Robot manipulation</tspan></text>
 <text x="80" y="879.52" font-family="Arial" font-size="21" font-weight="normal" fill="#d7e3ef" text-anchor="start"><tspan x="80" y="879.52">Cooperative control</tspan></text>
 <rect x="384" y="228.0" width="288" height="232.96" rx="8" fill="#0f1928" stroke="#344456" stroke-width="1.5" />
 <text x="400" y="259.0" font-family="Arial" font-size="24" font-weight="bold" fill="#f1f5fa" text-anchor="start"><tspan x="400" y="259.0">Representation</tspan><tspan x="400" y="289.0">regularization</tspan></text>
-<text x="400" y="324.0" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="400" y="324.0">Preserve representation</tspan><tspan x="400" y="352.0">diversity</tspan></text>
-<text x="400" y="380.0" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="400" y="380.0">during policy pretraining</tspan></text>
+<text x="400" y="324.0" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="400" y="324.0">Preserve representation</tspan><tspan x="400" y="352.0">diversity</tspan></text>
+<text x="400" y="380.0" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="400" y="380.0">during policy pretraining</tspan></text>
 <text x="400" y="440.96000000000004" font-family="Arial" font-size="22" font-weight="bold" fill="#56a8f5" text-anchor="start"><tspan x="400" y="440.96000000000004">D2PPO · DM1</tspan></text>
 <rect x="384" y="489.12" width="288" height="232.96" rx="8" fill="#0f1928" stroke="#344456" stroke-width="1.5" />
 <text x="400" y="520.12" font-family="Arial" font-size="24" font-weight="bold" fill="#f1f5fa" text-anchor="start"><tspan x="400" y="520.12">One-step generation</tspan></text>
-<text x="400" y="555.12" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="400" y="555.12">Pretrain models to</tspan><tspan x="400" y="583.12">generate</tspan></text>
-<text x="400" y="611.12" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="400" y="611.12">actions in a single step</tspan></text>
+<text x="400" y="555.12" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="400" y="555.12">Pretrain models to</tspan><tspan x="400" y="583.12">generate</tspan></text>
+<text x="400" y="611.12" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="400" y="611.12">actions in a single step</tspan></text>
 <text x="400" y="797" font-family="Arial" font-size="18" font-weight="bold" fill="#56a8f5" text-anchor="start"><tspan x="400" y="797">PRETRAINING OBJECTIVE</tspan></text>
 <text x="400" y="841.12" font-family="Arial" font-size="21" font-weight="normal" fill="#d7e3ef" text-anchor="start"><tspan x="400" y="841.12">Learn useful</tspan><tspan x="400" y="869.12">representations</tspan></text>
 <text x="400" y="898.24" font-family="Arial" font-size="21" font-weight="normal" fill="#d7e3ef" text-anchor="start"><tspan x="400" y="898.24">and efficient action</tspan><tspan x="400" y="926.24">generators.</tspan></text>
 <rect x="744" y="228.0" width="308" height="202.24" rx="8" fill="#0f1928" stroke="#344456" stroke-width="1.5" />
 <text x="760" y="259.0" font-family="Arial" font-size="24" font-weight="bold" fill="#f1f5fa" text-anchor="start"><tspan x="760" y="259.0">One-step generative</tspan><tspan x="760" y="289.0">models</tspan></text>
-<text x="760" y="324.0" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="760" y="324.0">Optimize one-step policies</tspan></text>
+<text x="760" y="324.0" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="760" y="324.0">Optimize one-step policies</tspan></text>
 <text x="760" y="410.24" font-family="Arial" font-size="22" font-weight="bold" fill="#a497f5" text-anchor="start"><tspan x="760" y="410.24">OGPO</tspan></text>
 <rect x="744" y="455.84000000000003" width="308" height="202.24" rx="8" fill="#0f1928" stroke="#344456" stroke-width="1.5" />
 <text x="760" y="486.84000000000003" font-family="Arial" font-size="24" font-weight="bold" fill="#f1f5fa" text-anchor="start"><tspan x="760" y="486.84000000000003">Diffusion models</tspan></text>
-<text x="760" y="521.84" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="760" y="521.84">Optimize diffusion policies</tspan></text>
+<text x="760" y="521.84" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="760" y="521.84">Optimize diffusion policies</tspan></text>
 <text x="760" y="638.08" font-family="Arial" font-size="22" font-weight="bold" fill="#a497f5" text-anchor="start"><tspan x="760" y="638.08">D2PPO</tspan></text>
 <rect x="744" y="683.6800000000001" width="308" height="227.84" rx="8" fill="#0f1928" stroke="#344456" stroke-width="1.5" />
 <text x="760" y="714.6800000000001" font-family="Arial" font-size="24" font-weight="bold" fill="#f1f5fa" text-anchor="start"><tspan x="760" y="714.6800000000001">Multi-agent flow</tspan><tspan x="760" y="744.6800000000001">matching</tspan></text>
-<text x="760" y="779.6800000000001" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="760" y="779.6800000000001">Optimize policies for</tspan></text>
-<text x="760" y="807.6800000000001" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="760" y="807.6800000000001">cooperative decision-making</tspan></text>
+<text x="760" y="779.6800000000001" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="760" y="779.6800000000001">Optimize policies for</tspan></text>
+<text x="760" y="807.6800000000001" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="760" y="807.6800000000001">cooperative decision-making</tspan></text>
 <text x="760" y="891.5200000000001" font-family="Arial" font-size="22" font-weight="bold" fill="#a497f5" text-anchor="start"><tspan x="760" y="891.5200000000001">MA-FPPO</tspan></text>
 <rect x="1124" y="228.0" width="278" height="202.24" rx="8" fill="#0f1928" stroke="#344456" stroke-width="1.5" />
 <text x="1140" y="259.0" font-family="Arial" font-size="24" font-weight="bold" fill="#f1f5fa" text-anchor="start"><tspan x="1140" y="259.0">Efficient inference</tspan></text>
-<text x="1140" y="294.0" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1140" y="294.0">Accelerate action</tspan><tspan x="1140" y="322.0">generation</tspan></text>
-<text x="1140" y="350.0" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1140" y="350.0">with one-step models</tspan></text>
+<text x="1140" y="294.0" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1140" y="294.0">Accelerate action</tspan><tspan x="1140" y="322.0">generation</tspan></text>
+<text x="1140" y="350.0" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1140" y="350.0">with one-step models</tspan></text>
 <text x="1140" y="410.24" font-family="Arial" font-size="22" font-weight="bold" fill="#f2ac64" text-anchor="start"><tspan x="1140" y="410.24">DM1 · OGPO</tspan></text>
 <rect x="1124" y="455.84000000000003" width="278" height="202.24" rx="8" fill="#0f1928" stroke="#344456" stroke-width="1.5" />
 <text x="1140" y="486.84000000000003" font-family="Arial" font-size="24" font-weight="bold" fill="#f1f5fa" text-anchor="start"><tspan x="1140" y="486.84000000000003">Q-guided actions</tspan></text>
-<text x="1140" y="521.84" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1140" y="521.84">Guide actions toward</tspan></text>
-<text x="1140" y="549.84" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1140" y="549.84">higher estimated value</tspan></text>
+<text x="1140" y="521.84" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1140" y="521.84">Guide actions toward</tspan></text>
+<text x="1140" y="549.84" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1140" y="549.84">higher estimated value</tspan></text>
 <text x="1140" y="638.08" font-family="Arial" font-size="22" font-weight="bold" fill="#f2ac64" text-anchor="start"><tspan x="1140" y="638.08">G2MAF</tspan></text>
 <rect x="1124" y="683.6800000000001" width="278" height="227.84" rx="8" fill="#0f1928" stroke="#344456" stroke-width="1.5" />
 <text x="1140" y="714.6800000000001" font-family="Arial" font-size="24" font-weight="bold" fill="#f1f5fa" text-anchor="start"><tspan x="1140" y="714.6800000000001">World-model</tspan><tspan x="1140" y="744.6800000000001">optimization</tspan></text>
-<text x="1140" y="779.6800000000001" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1140" y="779.6800000000001">Optimize decisions at</tspan><tspan x="1140" y="807.6800000000001">test time</tspan></text>
-<text x="1140" y="835.6800000000001" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1140" y="835.6800000000001">using world-model</tspan><tspan x="1140" y="863.6800000000001">predictions</tspan></text>
+<text x="1140" y="779.6800000000001" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1140" y="779.6800000000001">Optimize decisions at</tspan><tspan x="1140" y="807.6800000000001">test time</tspan></text>
+<text x="1140" y="835.6800000000001" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1140" y="835.6800000000001">using world-model</tspan><tspan x="1140" y="863.6800000000001">predictions</tspan></text>
 <text x="1140" y="899" font-family="Arial" font-size="22" font-weight="bold" fill="#f2ac64" text-anchor="start"><tspan x="1140" y="899">MA-WAM</tspan></text>
 <rect x="1474" y="228.0" width="262" height="222.72" rx="8" fill="#0f1928" stroke="#344456" stroke-width="1.5" />
 <text x="1490" y="259.0" font-family="Arial" font-size="24" font-weight="bold" fill="#f1f5fa" text-anchor="start"><tspan x="1490" y="259.0">Task performance</tspan></text>
-<text x="1490" y="294.0" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1490" y="294.0">Task success rate</tspan></text>
-<text x="1490" y="322.0" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1490" y="322.0">Episode return</tspan></text>
-<text x="1490" y="350.0" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1490" y="350.0">Win rate</tspan></text>
+<text x="1490" y="294.0" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1490" y="294.0">Task success rate</tspan></text>
+<text x="1490" y="322.0" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1490" y="322.0">Episode return</tspan></text>
+<text x="1490" y="350.0" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1490" y="350.0">Win rate</tspan></text>
 <rect x="1474" y="478.88" width="262" height="153.6" rx="8" fill="#0f1928" stroke="#344456" stroke-width="1.5" />
 <text x="1490" y="509.88" font-family="Arial" font-size="24" font-weight="bold" fill="#f1f5fa" text-anchor="start"><tspan x="1490" y="509.88">Inference efficiency</tspan></text>
-<text x="1490" y="544.88" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1490" y="544.88">Inference time</tspan></text>
+<text x="1490" y="544.88" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1490" y="544.88">Inference time</tspan></text>
 <rect x="1474" y="660.64" width="262" height="199.68" rx="8" fill="#0f1928" stroke="#344456" stroke-width="1.5" />
 <text x="1490" y="691.64" font-family="Arial" font-size="24" font-weight="bold" fill="#f1f5fa" text-anchor="start"><tspan x="1490" y="691.64">Real-world</tspan><tspan x="1490" y="721.64">evaluation</tspan></text>
-<text x="1490" y="756.64" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1490" y="756.64">Real-robot performance</tspan></text>
-<text x="1490" y="784.64" font-family="Arial" font-size="21" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1490" y="784.64">Task execution</tspan><tspan x="1490" y="812.64">outcomes</tspan></text>
+<text x="1490" y="756.64" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1490" y="756.64">Real-robot performance</tspan></text>
+<text x="1490" y="784.64" font-family="Arial" font-size="18" font-weight="normal" fill="#bccbdd" text-anchor="start"><tspan x="1490" y="784.64">Task execution</tspan><tspan x="1490" y="812.64">outcomes</tspan></text>
 <text x="1490" y="903.84" font-family="Arial" font-size="21" font-weight="normal" fill="#9db0c8" text-anchor="start"><tspan x="1490" y="903.84">Metrics depend on the</tspan><tspan x="1490" y="931.84">task.</tspan></text>
 </svg>
