@@ -40,6 +40,33 @@ Our research began with **D2PPO**, which combines dispersive regularization for 
 - [2025/10] 🔥 **DM1** introduces MeanFlow with dispersive regularization for one-step robotic manipulation. [Project](https://guowei-zou.github.io/dm1/) · [Paper](https://arxiv.org/abs/2510.07865) · [Code](https://github.com/Guowei-Zou/dm1-release).
 - [2025/08] 🔥 **D2PPO** introduces diffusion policy optimization with dispersive loss. The work is now accepted at **AAAI 2026**. [Project](https://guowei-zou.github.io/d2ppo/) · [Paper](https://arxiv.org/abs/2508.02644) · [Code](https://github.com/Guowei-Zou/d2ppo-release).
 
+## Design Philosophy
+
+POInfra aims to bring embodied intelligence into practical use, enabling robots to perform useful work in factories and homes and create tangible value. We focus on a central question: **How can generative models move from learning existing behavior to becoming decision-making policies that continually improve, adapt to new tasks, and act efficiently?**
+
+Generative models provide a foundation for learning complex and diverse behaviors. For robot control and multi-agent cooperation, we study how task feedback can improve generative policies and how these policies can perform effectively with limited data, environment interaction, and computation. POInfra organizes this research around five connected stages: **data, pretraining, policy optimization, inference, and evaluation**.
+
+**Learn from experience to establish a foundation for improvement.** Offline demonstrations and interaction trajectories provide behavioral experience, which pretraining turns into initial policies. We study representation regularization and pretraining for one-step generation to preserve representation diversity and learn efficient action generation. To address limited real-world data and costly collection, we also explore generating training data with world models to broaden the scenarios and behaviors available for learning.
+
+**Use environment feedback to turn generative capabilities into task performance.** Policy optimization is at the core of POInfra. We study policy optimization for one-step generative models, diffusion models, and multi-agent flow matching models. These methods use prior experience while exploring better behavior through online interaction, reducing dependence on dataset coverage. To address the gap between simulation and reality, we explore learning world models from real data and using them as reinforcement learning environments to support transfer to physical robots.
+
+**Balance responsiveness and decision quality during execution.** We use one-step generation to reduce the computational cost of action generation, Q-value guidance to steer actions toward higher estimated value, and world models to predict action outcomes and support test-time optimization. These directions address the need for timely responses, effective actions, and anticipation of future outcomes.
+
+**Evaluate methods through actual task outcomes.** Evaluation spans the research process, covering task success rate, return, win rate, inference time, and performance on physical robots. We also consider the data, interaction, and computation required for improvements. Execution results inform method design so that progress at each stage translates into a greater ability to complete tasks.
+
+### Further Directions for Real-World Deployment
+
+Following the path from learning to deployment, we are extending this research in eight directions:
+
+1. **Expand training data.** Explore world models as a source of generated data to address data scarcity in embodied intelligence and provide richer scenarios and behavioral experience for policy learning.
+2. **Build training environments closer to reality.** Learn world models from real interactions and use them as simulation environments for reinforcement learning, exploring ways to reduce the gap between simulation and reality.
+3. **Improve performance beyond dataset coverage.** Optimize pretrained policies through online reinforcement learning so robots can adjust their behavior using environment feedback and explore effective solutions beyond existing data.
+4. **Reduce the cost of adapting to new tasks.** Study in-context learning so robots can use task examples and interaction experience to adapt, reducing the need for parameter fine-tuning during deployment.
+5. **Meet real-time control requirements.** Study one-step generative models and their policy optimization to reduce action generation latency while improving task performance.
+6. **Enable decisions that anticipate future outcomes.** Study latent world models and world-model-based test-time planning to improve current decisions by predicting future states and action outcomes.
+7. **Support failure recovery and long-horizon tasks.** Explore Agent RL so robots can identify failures from execution feedback, revise plans, attempt recovery, and coordinate multiple steps to complete tasks.
+8. **Advance cooperation among embodied robots.** Develop large-scale datasets and simulation environments for multi-agent embodied intelligence, and study policy optimization for physical interaction and cooperation so multiple robots can work together in industrial and everyday settings.
+
 ## Key Research Directions
 
 ### Diffusion policy optimization
