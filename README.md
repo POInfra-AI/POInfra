@@ -24,7 +24,8 @@ Our research began with **D2PPO**, which combines dispersive regularization for 
 ## What's NEW!
 
 - [2026/09] 🔥 **POInfra** is launched, bringing together our research on policy optimization for generative models, beginning with D2PPO.
-- [2026/09] 🔥 **G2MAF** and **MA-WAM** preprints are available, exploring test-time gradient guidance and world-action planning. Papers: [G2MAF](https://arxiv.org/abs/2609.31286), [MA-WAM](https://arxiv.org/abs/2609.31281).
+- [2026/07] 🔥 **G2MAF** explores test-time gradient guidance for multi-agent flow policies. [Paper](https://arxiv.org/abs/2609.31286) · [Project](https://g2maf.github.io/).
+- [2026/07] 🔥 **MA-WAM** explores multi-agent world-action models for test-time planning. [Paper](https://arxiv.org/abs/2609.31281) · [Project](https://ma-wam.github.io/).
 - [2026/05] 🔥 **CoFlow** introduces coordinated few-step flow for offline multi-agent decision-making. [Paper](https://arxiv.org/abs/2605.01457) · [Project](https://guowei-zou.github.io/coflow/).
 - [2026/01] 🔥 The initial preprint of **OGPO**, released as DMPO, is available. The work is now accepted at **ACM MM 2026**. [Paper](https://arxiv.org/abs/2601.20701) · [Project](https://ogpo-project.github.io/).
 
