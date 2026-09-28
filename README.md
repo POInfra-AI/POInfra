@@ -25,7 +25,7 @@ Our research began with **D2PPO**, which combines dispersive regularization for 
 **PO** stands for **Policy Optimization**, and **Infra** reflects our goal of building reusable infrastructure around this research. This repository brings together the methods and resources. Available implementations currently run through their individual project repositories.
 
 <div align="center">
-  <img src="assets/overview.svg" alt="POInfra research architecture and planned shared infrastructure" width="100%">
+  <img src="assets/overview.svg" alt="POInfra research architecture: data, pretraining, policy optimization, inference, and evaluation" width="100%">
 </div>
 
 ## What's NEW!

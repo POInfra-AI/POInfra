@@ -25,7 +25,7 @@
 **PO** 代表 **Policy Optimization（策略优化）**，**Infra** 体现了围绕这一研究方向构建可复用基础设施的目标。本仓库汇集相关方法和资源，现有实现通过各自的项目仓库运行。
 
 <div align="center">
-  <img src="assets/overview.svg" alt="POInfra 研究架构与规划中的共享基础设施" width="100%">
+  <img src="assets/overview.svg" alt="POInfra 研究架构：数据、预训练、策略优化、推理与评估" width="100%">
 </div>
 
 ## 最新动态
