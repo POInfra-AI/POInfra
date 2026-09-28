@@ -35,7 +35,7 @@
 <rect x="32" y="465" width="1136" height="116" rx="12" fill="#fff" stroke="#ced9e5" stroke-width="1.5"/>
 <text x="55" y="495" class="label" text-anchor="start">PROJECT RESOURCES</text>
 <text x="55" y="526" class="body" text-anchor="start">Papers and method descriptions       Project-specific training and evaluation       Data and checkpoints</text>
-<text x="55" y="554" class="small" text-anchor="start">Public implementations: D2PPO · DM1 · OGPO · CoFlow     |     Pending: MA-FPPO · G2MAF · MA-WAM</text>
+<text x="55" y="554" class="small" text-anchor="start">Public code: D2PPO · DM1 · OGPO · CoFlow · MA-FPPO     |     Pending implementations: G2MAF · MA-WAM</text>
 <rect x="32" y="612" width="1136" height="132" rx="12" fill="#f4f6f8" stroke="#91a0b4" stroke-width="1.5" stroke-dasharray="7 5"/>
 <text x="55" y="644" class="label" text-anchor="start">SHARED INFRASTRUCTURE — PLANNED</text>
 <text x="55" y="679" class="body" text-anchor="start">Policy and sampling interfaces         Data and checkpoint conventions         Reproducible evaluation</text>
