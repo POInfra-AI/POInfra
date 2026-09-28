@@ -40,37 +40,27 @@ Our research began with **D2PPO**, which combines dispersive regularization for 
 - [2025/10] 🔥 **DM1** introduces MeanFlow with dispersive regularization for one-step robotic manipulation. [Project](https://guowei-zou.github.io/dm1/) · [Paper](https://arxiv.org/abs/2510.07865) · [Code](https://github.com/Guowei-Zou/dm1-release).
 - [2025/08] 🔥 **D2PPO** introduces diffusion policy optimization with dispersive loss. The work is now accepted at **AAAI 2026**. [Project](https://guowei-zou.github.io/d2ppo/) · [Paper](https://arxiv.org/abs/2508.02644) · [Code](https://github.com/Guowei-Zou/d2ppo-release).
 
-## Design Philosophy
+## Design Philosophy and Research Directions
 
 POInfra aims to bring embodied intelligence into practical use, enabling robots to perform useful work in factories and homes and create tangible value. We focus on a central question: **How can generative models move from learning existing behavior to becoming decision-making policies that continually improve, adapt to new tasks, and act efficiently?**
 
-Generative models provide a foundation for learning complex and diverse behaviors. For robot control and multi-agent cooperation, we study how task feedback can improve generative policies and how these policies can perform effectively with limited data, environment interaction, and computation. POInfra organizes this research around five connected stages: **data, pretraining, policy optimization, inference, and evaluation**.
+For robot control and multi-agent cooperation, we organize our research around five connected stages: **data, pretraining, policy optimization, inference, and evaluation**. Together, these stages address how to learn from experience, improve through feedback, and make effective decisions with limited interaction and computation.
 
-**Learn from experience to establish a foundation for improvement.** Offline demonstrations and interaction trajectories provide behavioral experience, which pretraining turns into initial policies. We study representation regularization and pretraining for one-step generation to preserve representation diversity and learn efficient action generation. To address limited real-world data and costly collection, we also explore generating training data with world models to broaden the scenarios and behaviors available for learning.
+### Learn from experience and prepare policies for improvement
 
-**Use environment feedback to turn generative capabilities into task performance.** Policy optimization is at the core of POInfra. We study policy optimization for one-step generative models, diffusion models, and multi-agent flow matching models. These methods use prior experience while exploring better behavior through online interaction, reducing dependence on dataset coverage. To address the gap between simulation and reality, we explore learning world models from real data and using them as reinforcement learning environments to support transfer to physical robots.
+Offline demonstrations and interaction trajectories provide the behavioral experience for pretraining. **D2PPO** introduces dispersive regularization during diffusion policy pretraining, and **DM1** studies this regularization for MeanFlow policies in robotic manipulation. These projects investigate representation diversity and efficient action generation as foundations for subsequent policy learning. **CoFlow** extends learning from offline data to coordinated few-step trajectory generation for multiple agents.
 
-**Balance responsiveness and decision quality during execution.** We use one-step generation to reduce the computational cost of action generation, Q-value guidance to steer actions toward higher estimated value, and world models to predict action outcomes and support test-time optimization. These directions address the need for timely responses, effective actions, and anticipation of future outcomes.
+### Improve generative policies through environment feedback
 
-**Evaluate methods through actual task outcomes.** Evaluation spans the research process, covering task success rate, return, win rate, inference time, and performance on physical robots. We also consider the data, interaction, and computation required for improvements. Execution results inform method design so that progress at each stage translates into a greater ability to complete tasks.
+Policy optimization is at the core of POInfra. **D2PPO** fine-tunes diffusion policies with PPO, **OGPO** develops one-step generative policy optimization for real-time robot control, and **MA-FPPO** studies flow policy pretraining and online fine-tuning for multi-agent decision-making. Across these model families, we study how policies can use prior experience while exploring better behavior through task feedback.
 
-## Key Research Directions
+### Balance responsiveness and decision quality during execution
 
-### Diffusion policy optimization
+**DM1** and **OGPO** study one-step policies to reduce the computation needed to generate actions. **G2MAF** uses Q-value gradient guidance to steer multi-agent flow policies toward actions with higher estimated value. **MA-WAM** studies multi-agent world-action models for test-time planning. These directions address action generation speed, action value, and anticipation of future outcomes.
 
-**D2PPO** studies representation learning in diffusion policies. Dispersive regularization is applied during pretraining, followed by PPO fine-tuning through environment interaction. This establishes the starting point of our work on learning and optimizing generative policies.
+### Evaluate progress through task outcomes and deployment costs
 
-### Efficient generative policies
-
-**DM1** investigates dispersive regularization for MeanFlow policies in robotic manipulation. **OGPO** develops one-step generative policy optimization for real-time robot control. These projects study how to retain useful generative representations while reducing the computation needed to produce actions.
-
-### Multi-agent policy learning and optimization
-
-**CoFlow** studies coordinated few-step trajectory generation from offline multi-agent data. **MA-FPPO** studies flow policy pretraining and online fine-tuning for multi-agent decision-making. Together, these projects extend the research to policies whose decisions must account for other agents.
-
-### Inference-time guidance and planning
-
-**G2MAF** studies gradient guidance for multi-agent flow policies at test time. **MA-WAM** studies multi-agent world-action models for test-time planning. These projects investigate how to improve decisions during execution through guidance or model-based planning.
+Evaluation covers task success rate, return, win rate, inference time, and performance on physical robots, as appropriate for each task. We consider both task performance and the data, interaction, and computation required to achieve it. These results inform the design of pretraining, policy optimization, and inference methods, connecting methodological progress to practical deployment.
 
 ## Projects
 
