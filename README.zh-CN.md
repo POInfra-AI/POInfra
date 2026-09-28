@@ -79,23 +79,55 @@
 
 G2MAF 和 MA-WAM 的公开仓库目前包含项目介绍，具体实现尚待发布。上表中的实现链接指向各项目的独立发布版本，目前尚未整合为统一软件包。
 
-## 方法概览
+## 研究动机
 
-### D2PPO：从扩散策略预训练到 PPO 微调
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Guowei-Zou/d2ppo-release/master/assets/d2ppo_architecture.jpg" alt="D2PPO architecture: dispersive policy pretraining and PPO fine-tuning" width="900">
-</p>
-
-[方法、机器人演示与实验结果](https://guowei-zou.github.io/d2ppo/)
-
-### OGPO：一步生成式策略优化
+### D2PPO
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ogpo-project/OGPO/master/sample_figs/OGPO-framework.png" alt="OGPO framework" width="900">
+  <a href="https://guowei-zou.github.io/d2ppo/"><img src="assets/motivation/d2ppo.png" alt="D2PPO 研究动机" width="900"></a>
 </p>
 
-[方法、机器人演示与实验结果](https://ogpo-project.github.io/)
+[项目页](https://guowei-zou.github.io/d2ppo/)
+
+### OGPO
+
+<p align="center">
+  <a href="https://ogpo-project.github.io/"><img src="assets/motivation/ogpo.png" alt="OGPO 研究动机" width="900"></a>
+</p>
+
+[项目页](https://ogpo-project.github.io/)
+
+### CoFlow
+
+<p align="center">
+  <a href="https://guowei-zou.github.io/coflow/"><img src="assets/motivation/coflow.png" alt="CoFlow 研究动机" width="900"></a>
+</p>
+
+[项目页](https://guowei-zou.github.io/coflow/)
+
+### MA-FPPO
+
+<p align="center">
+  <a href="https://ma-fppo.github.io/"><img src="assets/motivation/ma-fppo.webp" alt="MA-FPPO 研究动机" width="900"></a>
+</p>
+
+[项目页](https://ma-fppo.github.io/)
+
+### G2MAF
+
+<p align="center">
+  <a href="https://g2maf.github.io/"><img src="assets/motivation/g2maf.webp" alt="G2MAF 研究动机" width="900"></a>
+</p>
+
+[项目页](https://g2maf.github.io/)
+
+### MA-WAM
+
+<p align="center">
+  <a href="https://ma-wam.github.io/"><img src="assets/motivation/ma-wam.webp" alt="MA-WAM 研究动机" width="900"></a>
+</p>
+
+[项目页](https://ma-wam.github.io/)
 
 ## 快速开始
 

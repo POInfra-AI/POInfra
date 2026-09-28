@@ -79,23 +79,55 @@ Our research began with **D2PPO**, which combines dispersive regularization for 
 
 The G2MAF and MA-WAM repositories currently contain project information. Implementation links above refer to separate project releases, rather than modules integrated into a single package.
 
-## Methods at a glance
+## Research motivations
 
-### D2PPO: from diffusion policy pretraining to PPO fine-tuning
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Guowei-Zou/d2ppo-release/master/assets/d2ppo_architecture.jpg" alt="D2PPO architecture: dispersive policy pretraining and PPO fine-tuning" width="900">
-</p>
-
-[Method, robot demonstrations, and results](https://guowei-zou.github.io/d2ppo/)
-
-### OGPO: one-step generative policy optimization
+### D2PPO
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ogpo-project/OGPO/master/sample_figs/OGPO-framework.png" alt="OGPO framework" width="900">
+  <a href="https://guowei-zou.github.io/d2ppo/"><img src="assets/motivation/d2ppo.png" alt="D2PPO research motivation" width="900"></a>
 </p>
 
-[Method, robot demonstrations, and results](https://ogpo-project.github.io/)
+[Project](https://guowei-zou.github.io/d2ppo/)
+
+### OGPO
+
+<p align="center">
+  <a href="https://ogpo-project.github.io/"><img src="assets/motivation/ogpo.png" alt="OGPO research motivation" width="900"></a>
+</p>
+
+[Project](https://ogpo-project.github.io/)
+
+### CoFlow
+
+<p align="center">
+  <a href="https://guowei-zou.github.io/coflow/"><img src="assets/motivation/coflow.png" alt="CoFlow research motivation" width="900"></a>
+</p>
+
+[Project](https://guowei-zou.github.io/coflow/)
+
+### MA-FPPO
+
+<p align="center">
+  <a href="https://ma-fppo.github.io/"><img src="assets/motivation/ma-fppo.webp" alt="MA-FPPO research motivation" width="900"></a>
+</p>
+
+[Project](https://ma-fppo.github.io/)
+
+### G2MAF
+
+<p align="center">
+  <a href="https://g2maf.github.io/"><img src="assets/motivation/g2maf.webp" alt="G2MAF research motivation" width="900"></a>
+</p>
+
+[Project](https://g2maf.github.io/)
+
+### MA-WAM
+
+<p align="center">
+  <a href="https://ma-wam.github.io/"><img src="assets/motivation/ma-wam.webp" alt="MA-WAM research motivation" width="900"></a>
+</p>
+
+[Project](https://ma-wam.github.io/)
 
 ## Getting started
 
