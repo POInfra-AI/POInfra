@@ -9,6 +9,13 @@
   <a href="#projects"><img src="https://img.shields.io/badge/Code-Project_Repositories-181717?logo=github" alt="Project repositories"></a>
 </div>
 
+<div align="center">
+
+[![English](https://img.shields.io/badge/lang-English-blue.svg)](README.md)
+[![简体中文](https://img.shields.io/badge/语言-简体中文-red.svg)](README.zh-CN.md)
+
+</div>
+
 <h1 align="center"><sub>POInfra: Policy Optimization for Generative Models</sub></h1>
 
 **POInfra focuses on policy optimization for generative models.** We study how diffusion and flow models can serve as policies, how these policies can improve through reinforcement learning, and how additional computation at inference time can improve their decisions.
