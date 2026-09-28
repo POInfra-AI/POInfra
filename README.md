@@ -2,22 +2,14 @@
   <img src="assets/poinfra-logo.png" alt="POInfra" width="720">
 </p>
 
-<h1 align="center">POInfra: Policy Optimization for Generative Models</h1>
+<div align="center">
+  <a href="#projects"><img src="https://img.shields.io/badge/Papers-arXiv-B31B1B?logo=arxiv" alt="Papers"></a>
+  <a href="https://huggingface.co/Guowei-Zou"><img src="https://img.shields.io/badge/Hugging_Face-Models_%26_Data-FFD21E?logo=huggingface" alt="Models and data"></a>
+  <a href="#getting-started"><img src="https://img.shields.io/badge/Getting_Started-Guide-8A2BE2?logo=readthedocs" alt="Getting started"></a>
+  <a href="#projects"><img src="https://img.shields.io/badge/Code-Project_Repositories-181717?logo=github" alt="Project repositories"></a>
+</div>
 
-<p align="center">
-  Diffusion and flow policies for robot control and multi-agent decision-making.
-</p>
-
-<p align="center">
-  <a href="#overview">Overview</a> ·
-  <a href="#news">News</a> ·
-  <a href="#research-directions">Research directions</a> ·
-  <a href="#projects">Projects</a> ·
-  <a href="#getting-started">Getting started</a> ·
-  <a href="#citation">Citation</a>
-</p>
-
-## Overview
+<h1 align="center"><sub>POInfra: Policy Optimization for Generative Models</sub></h1>
 
 **POInfra focuses on policy optimization for generative models.** We study how diffusion and flow models can serve as policies, how these policies can improve through reinforcement learning, and how additional computation at inference time can improve their decisions.
 
@@ -25,15 +17,26 @@ Our research began with **D2PPO**, which combines dispersive regularization for 
 
 **PO** stands for **Policy Optimization**, and **Infra** reflects our goal of building reusable infrastructure around this research. This repository brings together the methods and resources. Available implementations currently run through their individual project repositories.
 
-## News
+<div align="center">
+  <img src="assets/overview.svg" alt="POInfra research architecture and planned shared infrastructure" width="100%">
+</div>
 
-- **September 2026:** POInfra launches as the shared entry point for our work on generative policy optimization. [G2MAF](https://arxiv.org/abs/2609.31286) and [MA-WAM](https://arxiv.org/abs/2609.31281) preprints are available.
-- **2026:** [OGPO](https://ogpo-project.github.io/) is accepted at **ACM Multimedia 2026**. The earlier preprint was released under the name DMPO.
-- **May 2026:** [CoFlow](https://arxiv.org/abs/2605.01457) studies coordinated few-step flow generation for offline multi-agent decision-making.
-- **October 2025:** [DM1](https://arxiv.org/abs/2510.07865) studies MeanFlow with dispersive regularization for one-step robotic manipulation.
-- **August 2025:** The [D2PPO preprint](https://arxiv.org/abs/2508.02644) introduces diffusion policy optimization with dispersive loss. D2PPO is accepted at **AAAI 2026**.
+## What's NEW!
 
-## Research directions
+- [2026/09] 🔥 **POInfra** is launched, bringing together our research on policy optimization for generative models, beginning with D2PPO.
+- [2026/09] 🔥 **G2MAF** and **MA-WAM** preprints are available, exploring test-time gradient guidance and world-action planning. Papers: [G2MAF](https://arxiv.org/abs/2609.31286), [MA-WAM](https://arxiv.org/abs/2609.31281).
+- [2026/05] 🔥 **CoFlow** introduces coordinated few-step flow for offline multi-agent decision-making. [Paper](https://arxiv.org/abs/2605.01457) · [Project](https://guowei-zou.github.io/coflow/).
+- [2026/01] 🔥 The initial preprint of **OGPO**, released as DMPO, is available. The work is now accepted at **ACM MM 2026**. [Paper](https://arxiv.org/abs/2601.20701) · [Project](https://ogpo-project.github.io/).
+
+<details>
+<summary>More updates</summary>
+
+- [2025/10] 🔥 **DM1** introduces MeanFlow with dispersive regularization for one-step robotic manipulation. [Paper](https://arxiv.org/abs/2510.07865) · [Project](https://guowei-zou.github.io/dm1/).
+- [2025/08] 🔥 **D2PPO** introduces diffusion policy optimization with dispersive loss. The work is now accepted at **AAAI 2026**. [Paper](https://arxiv.org/abs/2508.02644) · [Project](https://guowei-zou.github.io/d2ppo/).
+
+</details>
+
+## Key Research Directions
 
 ### Diffusion policy optimization
 

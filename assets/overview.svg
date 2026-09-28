@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790">
+<rect width="1200" height="790" rx="20" fill="#f8fafc"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#153354}.title{font-size:29px;font-weight:700}.label{font-size:18px;font-weight:700}.body{font-size:16px}.small{font-size:14px}</style>
+<text x="38" y="48" class="title" text-anchor="start">POInfra</text>
+<text x="210" y="48" class="title" text-anchor="start">Policy Optimization for Generative Models</text>
+<text x="38" y="78" class="small" text-anchor="start">Research architecture • Project implementations remain independently maintained</text>
+<rect x="32" y="103" width="1136" height="89" rx="12" fill="#e8effa" stroke="#ced9e5" stroke-width="1.5"/>
+<text x="55" y="131" class="label" text-anchor="start">APPLICATIONS</text>
+<text x="600" y="166" class="label" text-anchor="middle">Robot control and manipulation                         Multi-agent decision-making</text>
+<text x="38" y="226" class="label" text-anchor="start">POLICY LEARNING AND OPTIMIZATION</text>
+<rect x="32" y="246" width="272" height="190" rx="12" fill="#fff2e4" stroke="#ced9e5" stroke-width="1.5"/>
+<text x="50" y="280" class="label" text-anchor="start">Diffusion policies</text>
+<text x="50" y="316" class="small" text-anchor="start">Dispersive pretraining</text>
+<text x="50" y="342" class="small" text-anchor="start">PPO fine-tuning</text>
+<path d="M50 365 H286" stroke="#becbda"/>
+<text x="50" y="404" class="label" text-anchor="start">D2PPO</text>
+<rect x="320" y="246" width="272" height="190" rx="12" fill="#e8f2ff" stroke="#ced9e5" stroke-width="1.5"/>
+<text x="338" y="280" class="label" text-anchor="start">One-step policies</text>
+<text x="338" y="316" class="small" text-anchor="start">MeanFlow representations</text>
+<text x="338" y="342" class="small" text-anchor="start">Efficient control and optimization</text>
+<path d="M338 365 H574" stroke="#becbda"/>
+<text x="338" y="404" class="label" text-anchor="start">DM1 · OGPO</text>
+<rect x="608" y="246" width="272" height="190" rx="12" fill="#edf7ef" stroke="#ced9e5" stroke-width="1.5"/>
+<text x="626" y="280" class="label" text-anchor="start">Multi-agent policies</text>
+<text x="626" y="316" class="small" text-anchor="start">Coordinated offline generation</text>
+<text x="626" y="342" class="small" text-anchor="start">Pretraining and online fine-tuning</text>
+<path d="M626 365 H862" stroke="#becbda"/>
+<text x="626" y="404" class="label" text-anchor="start">CoFlow · MA-FPPO</text>
+<rect x="896" y="246" width="272" height="190" rx="12" fill="#f2ecfc" stroke="#ced9e5" stroke-width="1.5"/>
+<text x="914" y="280" class="label" text-anchor="start">Inference-time decisions</text>
+<text x="914" y="316" class="small" text-anchor="start">Gradient guidance</text>
+<text x="914" y="342" class="small" text-anchor="start">World-model planning</text>
+<path d="M914 365 H1150" stroke="#becbda"/>
+<text x="914" y="404" class="label" text-anchor="start">G2MAF · MA-WAM</text>
+<rect x="32" y="465" width="1136" height="116" rx="12" fill="#fff" stroke="#ced9e5" stroke-width="1.5"/>
+<text x="55" y="495" class="label" text-anchor="start">PROJECT RESOURCES</text>
+<text x="55" y="526" class="body" text-anchor="start">Papers and method descriptions       Project-specific training and evaluation       Data and checkpoints</text>
+<text x="55" y="554" class="small" text-anchor="start">Public implementations: D2PPO · DM1 · OGPO · CoFlow     |     Pending: MA-FPPO · G2MAF · MA-WAM</text>
+<rect x="32" y="612" width="1136" height="132" rx="12" fill="#f4f6f8" stroke="#91a0b4" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="55" y="644" class="label" text-anchor="start">SHARED INFRASTRUCTURE — PLANNED</text>
+<text x="55" y="679" class="body" text-anchor="start">Policy and sampling interfaces         Data and checkpoint conventions         Reproducible evaluation</text>
+<text x="55" y="714" class="small" text-anchor="start">Integration roadmap. These components are not yet a unified software package.</text>
+</svg>
