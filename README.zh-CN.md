@@ -81,10 +81,10 @@ G2MAF 和 MA-WAM 的公开仓库目前包含项目介绍，具体实现尚待发
 
 ## 研究动机
 
-### D2PPO
+### D2PPO：方法框架
 
 <p align="center">
-  <a href="https://guowei-zou.github.io/d2ppo/"><img src="assets/motivation/d2ppo.png" alt="D2PPO 研究动机" width="900"></a>
+  <a href="https://guowei-zou.github.io/d2ppo/"><img src="assets/framework/d2ppo.png" alt="D2PPO 方法框架" width="900"></a>
 </p>
 
 [项目页](https://guowei-zou.github.io/d2ppo/)

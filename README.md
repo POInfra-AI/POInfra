@@ -81,10 +81,10 @@ The G2MAF and MA-WAM repositories currently contain project information. Impleme
 
 ## Research motivations
 
-### D2PPO
+### D2PPO — Framework
 
 <p align="center">
-  <a href="https://guowei-zou.github.io/d2ppo/"><img src="assets/motivation/d2ppo.png" alt="D2PPO research motivation" width="900"></a>
+  <a href="https://guowei-zou.github.io/d2ppo/"><img src="assets/framework/d2ppo.png" alt="D2PPO framework" width="900"></a>
 </p>
 
 [Project](https://guowei-zou.github.io/d2ppo/)
