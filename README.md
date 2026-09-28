@@ -54,19 +54,6 @@ Generative models provide a foundation for learning complex and diverse behavior
 
 **Evaluate methods through actual task outcomes.** Evaluation spans the research process, covering task success rate, return, win rate, inference time, and performance on physical robots. We also consider the data, interaction, and computation required for improvements. Execution results inform method design so that progress at each stage translates into a greater ability to complete tasks.
 
-### Further Directions for Real-World Deployment
-
-Following the path from learning to deployment, we are extending this research in eight directions:
-
-1. **Expand training data.** Explore world models as a source of generated data to address data scarcity in embodied intelligence and provide richer scenarios and behavioral experience for policy learning.
-2. **Build training environments closer to reality.** Learn world models from real interactions and use them as simulation environments for reinforcement learning, exploring ways to reduce the gap between simulation and reality.
-3. **Improve performance beyond dataset coverage.** Optimize pretrained policies through online reinforcement learning so robots can adjust their behavior using environment feedback and explore effective solutions beyond existing data.
-4. **Reduce the cost of adapting to new tasks.** Study in-context learning so robots can use task examples and interaction experience to adapt, reducing the need for parameter fine-tuning during deployment.
-5. **Meet real-time control requirements.** Study one-step generative models and their policy optimization to reduce action generation latency while improving task performance.
-6. **Enable decisions that anticipate future outcomes.** Study latent world models and world-model-based test-time planning to improve current decisions by predicting future states and action outcomes.
-7. **Support failure recovery and long-horizon tasks.** Explore Agent RL so robots can identify failures from execution feedback, revise plans, attempt recovery, and coordinate multiple steps to complete tasks.
-8. **Advance cooperation among embodied robots.** Develop large-scale datasets and simulation environments for multi-agent embodied intelligence, and study policy optimization for physical interaction and cooperation so multiple robots can work together in industrial and everyday settings.
-
 ## Key Research Directions
 
 ### Diffusion policy optimization
@@ -187,3 +174,16 @@ Please cite the papers corresponding to the methods and resources you use. BibTe
 ## Maintainer
 
 [Guowei Zou](https://github.com/Guowei-Zou) · Sun Yat-sen University
+
+## Further Directions for Real-World Deployment
+
+Following the path from learning to deployment, we are extending this research in eight directions:
+
+1. **Expand training data.** Explore world models as a source of generated data to address data scarcity in embodied intelligence and provide richer scenarios and behavioral experience for policy learning.
+2. **Build training environments closer to reality.** Learn world models from real interactions and use them as simulation environments for reinforcement learning, exploring ways to reduce the gap between simulation and reality.
+3. **Improve performance beyond dataset coverage.** Optimize pretrained policies through online reinforcement learning so robots can adjust their behavior using environment feedback and explore effective solutions beyond existing data.
+4. **Reduce the cost of adapting to new tasks.** Study in-context learning so robots can use task examples and interaction experience to adapt, reducing the need for parameter fine-tuning during deployment.
+5. **Meet real-time control requirements.** Study one-step generative models and their policy optimization to reduce action generation latency while improving task performance.
+6. **Enable decisions that anticipate future outcomes.** Study latent world models and world-model-based test-time planning to improve current decisions by predicting future states and action outcomes.
+7. **Support failure recovery and long-horizon tasks.** Explore Agent RL so robots can identify failures from execution feedback, revise plans, attempt recovery, and coordinate multiple steps to complete tasks.
+8. **Advance cooperation among embodied robots.** Develop large-scale datasets and simulation environments for multi-agent embodied intelligence, and study policy optimization for physical interaction and cooperation so multiple robots can work together in industrial and everyday settings.
