@@ -74,10 +74,10 @@ Our research began with **D2PPO**, which combines dispersive regularization for 
 | --- | --- | --- | --- | --- |
 | **CoFlow** | Coordinated few-step flow for offline multi-agent decision-making | [arXiv](https://arxiv.org/abs/2605.01457) | [Website](https://guowei-zou.github.io/coflow/) | [Implementation](https://github.com/Guowei-Zou/coflow-release) |
 | **MA-FPPO** | Multi-agent flow-pretrained policy optimization | [PDF](https://ma-fppo.github.io/assets/MA-FPPO.pdf) | [Website](https://ma-fppo.github.io/) | [Implementation](https://github.com/ma-fppo/MA-FPPO) |
-| **G2MAF** | Test-time gradient guidance for multi-agent flow policies | [arXiv](https://arxiv.org/abs/2609.31286) | [Website](https://g2maf.github.io/) | [Release pending](https://github.com/g2maf/G2MAF) |
-| **MA-WAM** | Multi-agent world-action modeling for test-time planning | [arXiv](https://arxiv.org/abs/2609.31281) | [Website](https://ma-wam.github.io/) | [Release pending](https://github.com/ma-wam/MA-WAM) |
+| **G2MAF** | Test-time gradient guidance for multi-agent flow policies | [arXiv](https://arxiv.org/abs/2609.31286) | [Website](https://g2maf.github.io/) | [Public repository](https://github.com/g2maf/G2MAF) |
+| **MA-WAM** | Multi-agent world-action modeling for test-time planning | [arXiv](https://arxiv.org/abs/2609.31281) | [Website](https://ma-wam.github.io/) | [Public repository](https://github.com/ma-wam/MA-WAM) |
 
-The G2MAF and MA-WAM repositories currently contain project information. Implementation links above refer to separate project releases, rather than modules integrated into a single package.
+All linked repositories are public. G2MAF and MA-WAM currently contain a project README, with no implementation files yet. Implementation links above refer to separate project releases, rather than modules integrated into a single package.
 
 ## Research motivations
 
