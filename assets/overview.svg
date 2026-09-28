@@ -2,8 +2,8 @@
 <rect width="1800" height="1000" fill="#0d1420" />
 <text x="48" y="60" font-family="Arial" font-size="38" font-weight="bold" fill="#ffffff" text-anchor="start">POInfra</text>
 <text x="245" y="59" font-family="Arial" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="start">Policy Optimization for Generative Models</text>
-<text x="49" y="94" font-family="Arial" font-size="14" font-weight="bold" fill="#ff9b38" text-anchor="start">RESEARCH ARCHITECTURE</text>
-<text x="310" y="94" font-family="Arial" font-size="19" font-weight="normal" fill="#9db0c8" text-anchor="start">Diffusion and flow policies for robot control and multi-agent decision-making</text>
+<text x="49" y="94" font-family="Arial" font-size="23" font-weight="bold" fill="#ff9b38" text-anchor="start">RESEARCH ARCHITECTURE</text>
+<text x="400" y="94" font-family="Arial" font-size="26" font-weight="normal" fill="#9db0c8" text-anchor="start">Diffusion and flow policies for robot control and multi-agent decision-making</text>
 <rect x="48" y="136" width="280" height="54" rx="9" fill="#63bda3" stroke="none" stroke-width="1.5" />
 <text x="64" y="170" font-family="Arial" font-size="22" font-weight="bold" fill="#0d1420" text-anchor="start">01</text>
 <text x="96" y="170" font-family="Arial" font-size="24" font-weight="bold" fill="#0d1420" text-anchor="start">Data &amp; Tasks</text>
