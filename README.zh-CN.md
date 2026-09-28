@@ -64,18 +64,18 @@
 
 | 方法 | 研究内容 | 论文 | 项目页 | 代码 |
 | --- | --- | --- | --- | --- |
-| **D2PPO** | 分散损失下的扩散策略预训练与 PPO 微调 | [AAAI 2026 / arXiv](https://arxiv.org/abs/2508.02644) | [项目页](https://guowei-zou.github.io/d2ppo/) | [实现](https://github.com/Guowei-Zou/d2ppo-release) |
-| **DM1** | 分散正则化下的 MeanFlow 一步机器人操作 | [arXiv](https://arxiv.org/abs/2510.07865) | [项目页](https://guowei-zou.github.io/dm1/) | [实现](https://github.com/Guowei-Zou/dm1-release) |
-| **OGPO** | 面向实时机器人控制的一步生成式策略优化 | [ACM MM 2026 / arXiv](https://arxiv.org/abs/2601.20701) | [项目页](https://ogpo-project.github.io/) | [实现](https://github.com/ogpo-project/OGPO) |
+| **D2PPO** | 分散损失下的扩散策略预训练与 PPO 微调 | [AAAI 2026 / arXiv](https://arxiv.org/abs/2508.02644) | [项目页](https://guowei-zou.github.io/d2ppo/) | [D2PPO-release](https://github.com/Guowei-Zou/d2ppo-release) |
+| **DM1** | 分散正则化下的 MeanFlow 一步机器人操作 | [arXiv](https://arxiv.org/abs/2510.07865) | [项目页](https://guowei-zou.github.io/dm1/) | [DM1-release](https://github.com/Guowei-Zou/dm1-release) |
+| **OGPO** | 面向实时机器人控制的一步生成式策略优化 | [ACM MM 2026 / arXiv](https://arxiv.org/abs/2601.20701) | [项目页](https://ogpo-project.github.io/) | [OGPO-release](https://github.com/ogpo-project/OGPO) |
 
 ### 多智能体决策
 
 | 方法 | 研究内容 | 论文 | 项目页 | 代码 |
 | --- | --- | --- | --- | --- |
-| **CoFlow** | 面向离线多智能体决策的协同少步流生成 | [arXiv](https://arxiv.org/abs/2605.01457) | [项目页](https://guowei-zou.github.io/coflow/) | [实现](https://github.com/Guowei-Zou/coflow-release) |
-| **MA-FPPO** | 多智能体流预训练策略优化 | [PDF](https://ma-fppo.github.io/assets/MA-FPPO.pdf) | [项目页](https://ma-fppo.github.io/) | [实现](https://github.com/ma-fppo/MA-FPPO) |
-| **G2MAF** | 多智能体流策略的测试时梯度引导 | [arXiv](https://arxiv.org/abs/2609.31286) | [项目页](https://g2maf.github.io/) | [公开仓库](https://github.com/g2maf/G2MAF) |
-| **MA-WAM** | 用于测试时规划的多智能体世界动作建模 | [arXiv](https://arxiv.org/abs/2609.31281) | [项目页](https://ma-wam.github.io/) | [公开仓库](https://github.com/ma-wam/MA-WAM) |
+| **CoFlow** | 面向离线多智能体决策的协同少步流生成 | [arXiv](https://arxiv.org/abs/2605.01457) | [项目页](https://guowei-zou.github.io/coflow/) | [CoFlow-release](https://github.com/Guowei-Zou/coflow-release) |
+| **MA-FPPO** | 多智能体流预训练策略优化 | [PDF](https://ma-fppo.github.io/assets/MA-FPPO.pdf) | [项目页](https://ma-fppo.github.io/) | [MA-FPPO-release](https://github.com/ma-fppo/MA-FPPO) |
+| **G2MAF** | 多智能体流策略的测试时梯度引导 | [arXiv](https://arxiv.org/abs/2609.31286) | [项目页](https://g2maf.github.io/) | [G2MAF-release](https://github.com/g2maf/G2MAF) |
+| **MA-WAM** | 用于测试时规划的多智能体世界动作建模 | [arXiv](https://arxiv.org/abs/2609.31281) | [项目页](https://ma-wam.github.io/) | [MA-WAM-release](https://github.com/ma-wam/MA-WAM) |
 
 所有链接的仓库均已公开。G2MAF 和 MA-WAM 目前只有项目 README，尚未包含实现代码。上表中的实现链接指向各项目的独立发布版本，目前尚未整合为统一软件包。
 

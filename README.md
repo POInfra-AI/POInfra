@@ -64,18 +64,18 @@ Our research began with **D2PPO**, which combines dispersive regularization for 
 
 | Method | Research focus | Paper | Project | Code |
 | --- | --- | --- | --- | --- |
-| **D2PPO** | Diffusion policy pretraining with dispersive loss and PPO fine-tuning | [AAAI 2026 / arXiv](https://arxiv.org/abs/2508.02644) | [Website](https://guowei-zou.github.io/d2ppo/) | [Implementation](https://github.com/Guowei-Zou/d2ppo-release) |
-| **DM1** | MeanFlow with dispersive regularization for one-step robotic manipulation | [arXiv](https://arxiv.org/abs/2510.07865) | [Website](https://guowei-zou.github.io/dm1/) | [Implementation](https://github.com/Guowei-Zou/dm1-release) |
-| **OGPO** | One-step generative policy optimization for real-time robot control | [ACM MM 2026 / arXiv](https://arxiv.org/abs/2601.20701) | [Website](https://ogpo-project.github.io/) | [Implementation](https://github.com/ogpo-project/OGPO) |
+| **D2PPO** | Diffusion policy pretraining with dispersive loss and PPO fine-tuning | [AAAI 2026 / arXiv](https://arxiv.org/abs/2508.02644) | [Website](https://guowei-zou.github.io/d2ppo/) | [D2PPO-release](https://github.com/Guowei-Zou/d2ppo-release) |
+| **DM1** | MeanFlow with dispersive regularization for one-step robotic manipulation | [arXiv](https://arxiv.org/abs/2510.07865) | [Website](https://guowei-zou.github.io/dm1/) | [DM1-release](https://github.com/Guowei-Zou/dm1-release) |
+| **OGPO** | One-step generative policy optimization for real-time robot control | [ACM MM 2026 / arXiv](https://arxiv.org/abs/2601.20701) | [Website](https://ogpo-project.github.io/) | [OGPO-release](https://github.com/ogpo-project/OGPO) |
 
 ### Multi-agent decision-making
 
 | Method | Research focus | Paper | Project | Code |
 | --- | --- | --- | --- | --- |
-| **CoFlow** | Coordinated few-step flow for offline multi-agent decision-making | [arXiv](https://arxiv.org/abs/2605.01457) | [Website](https://guowei-zou.github.io/coflow/) | [Implementation](https://github.com/Guowei-Zou/coflow-release) |
-| **MA-FPPO** | Multi-agent flow-pretrained policy optimization | [PDF](https://ma-fppo.github.io/assets/MA-FPPO.pdf) | [Website](https://ma-fppo.github.io/) | [Implementation](https://github.com/ma-fppo/MA-FPPO) |
-| **G2MAF** | Test-time gradient guidance for multi-agent flow policies | [arXiv](https://arxiv.org/abs/2609.31286) | [Website](https://g2maf.github.io/) | [Public repository](https://github.com/g2maf/G2MAF) |
-| **MA-WAM** | Multi-agent world-action modeling for test-time planning | [arXiv](https://arxiv.org/abs/2609.31281) | [Website](https://ma-wam.github.io/) | [Public repository](https://github.com/ma-wam/MA-WAM) |
+| **CoFlow** | Coordinated few-step flow for offline multi-agent decision-making | [arXiv](https://arxiv.org/abs/2605.01457) | [Website](https://guowei-zou.github.io/coflow/) | [CoFlow-release](https://github.com/Guowei-Zou/coflow-release) |
+| **MA-FPPO** | Multi-agent flow-pretrained policy optimization | [PDF](https://ma-fppo.github.io/assets/MA-FPPO.pdf) | [Website](https://ma-fppo.github.io/) | [MA-FPPO-release](https://github.com/ma-fppo/MA-FPPO) |
+| **G2MAF** | Test-time gradient guidance for multi-agent flow policies | [arXiv](https://arxiv.org/abs/2609.31286) | [Website](https://g2maf.github.io/) | [G2MAF-release](https://github.com/g2maf/G2MAF) |
+| **MA-WAM** | Multi-agent world-action modeling for test-time planning | [arXiv](https://arxiv.org/abs/2609.31281) | [Website](https://ma-wam.github.io/) | [MA-WAM-release](https://github.com/ma-wam/MA-WAM) |
 
 All linked repositories are public. G2MAF and MA-WAM currently contain a project README, with no implementation files yet. Implementation links above refer to separate project releases, rather than modules integrated into a single package.
 
