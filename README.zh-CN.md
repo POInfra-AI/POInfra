@@ -163,7 +163,7 @@ cd d2ppo-release
 
 ## 维护者
 
-[Guowei Zou](https://github.com/Guowei-Zou) · 中山大学
+[Guowei Zou](https://guowei-zou.github.io/Guowei-Zou/) · 中山大学
 
 ## 面向实际部署的进一步探索
 
