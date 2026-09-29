@@ -163,7 +163,7 @@ Please cite the papers corresponding to the methods and resources you use. BibTe
 
 ## Maintainer
 
-[Guowei Zou](https://github.com/Guowei-Zou) · Sun Yat-sen University
+[Guowei Zou](https://guowei-zou.github.io/Guowei-Zou/) · Sun Yat-sen University
 
 ## Further Directions for Real-World Deployment
 
