@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/c93f9101-ff76-4da4-84df-8372ea182742
 - [2026/07] 🔥 **G2MAF** 探索多智能体流策略的测试时梯度引导。 [Project](https://g2maf.github.io/) · [Paper](https://arxiv.org/abs/2609.31286) · [Code](https://github.com/g2maf/G2MAF).
 - [2026/07] 🔥 **MA-WAM** 探索用于测试时规划的多智能体世界动作模型。 [Project](https://ma-wam.github.io/) · [Paper](https://arxiv.org/abs/2609.31281) · [Code](https://github.com/ma-wam/MA-WAM).
 - [2026/05] 🔥 **CoFlow** 提出面向离线多智能体决策的协同少步流方法。 [Project](https://guowei-zou.github.io/coflow/) · [Paper](https://arxiv.org/abs/2605.01457) · [Code](https://github.com/Guowei-Zou/coflow-release).
-- [2026/01] 🔥 **OGPO** 的初版预印本以 DMPO 名称发布，该工作现已录用至 **ACM MM 2026**。 [Project](https://ogpo-project.github.io/) · [Paper](https://arxiv.org/abs/2601.20701) · [Code](https://github.com/ogpo-project/OGPO).
+- [2026/01] 🔥 **OGPO** 的预印本已发布，该工作现已录用至 **ACM MM 2026**。 [Project](https://ogpo-project.github.io/) · [Paper](https://arxiv.org/abs/2601.20701) · [Code](https://github.com/ogpo-project/OGPO).
 
 - [2025/10] 🔥 **DM1** introduces 分散正则化下的 MeanFlow 一步机器人操作. [Project](https://guowei-zou.github.io/dm1/) · [Paper](https://arxiv.org/abs/2510.07865) · [Code](https://github.com/Guowei-Zou/dm1-release).
 - [2025/08] 🔥 **D2PPO** 提出带分散损失的扩散策略优化方法，该工作现已录用至 **AAAI 2026**。 [Project](https://guowei-zou.github.io/d2ppo/) · [Paper](https://arxiv.org/abs/2508.02644) · [Code](https://github.com/Guowei-Zou/d2ppo-release).
@@ -165,7 +165,7 @@ cd d2ppo-release
 
 ## 引用
 
-使用相关方法或资源时，请引用对应论文。各项目仓库或网站提供 BibTeX。OGPO 的 arXiv 链接也包含早期 DMPO 预印本的版本记录。
+使用相关方法或资源时，请引用对应论文。各项目仓库或网站提供 BibTeX。
 
 ## 维护者
 
