@@ -24,6 +24,12 @@ Our research began with **D2PPO**, which combines dispersive regularization for 
 
 **PO** stands for **Policy Optimization**, and **Infra** reflects our goal of building reusable infrastructure around this research. This repository brings together the methods and resources. Available implementations currently run through their individual project repositories.
 
+## Video overview
+
+A two-minute introduction to POInfra, with real robot demonstrations and multi-agent environments.
+
+https://github.com/user-attachments/assets/c93f9101-ff76-4da4-84df-8372ea182742
+
 <div align="center">
   <img src="assets/overview.svg" alt="POInfra research architecture: data, pretraining, policy optimization, inference, and evaluation" width="100%">
 </div>
