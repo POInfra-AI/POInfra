@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="#项目"><img src="https://img.shields.io/badge/Papers-arXiv-B31B1B?logo=arxiv" alt="Papers"></a>
-  <a href="https://huggingface.co/Guowei-Zou"><img src="https://img.shields.io/badge/Hugging_Face-Models_%26_Data-FFD21E?logo=huggingface" alt="Models and data"></a>
+  <a href="https://huggingface.co/collections/Guowei-Zou/poinfra-models-and-datasets"><img src="https://img.shields.io/badge/Hugging_Face-Models_%26_Data-FFD21E?logo=huggingface" alt="Models and data"></a>
   <a href="#快速开始"><img src="https://img.shields.io/badge/Getting_Started-Guide-8A2BE2?logo=readthedocs" alt="Getting started"></a>
   <a href="#项目"><img src="https://img.shields.io/badge/Code-Project_Repositories-181717?logo=github" alt="Project repositories"></a>
 </div>
@@ -23,6 +23,18 @@
 我们的研究始于 **D2PPO**，将扩散策略预训练中的分散正则化与 PPO 微调相结合，随后扩展到高效的一步策略、多智能体协同生成、在线微调，以及推理时引导与规划。共同目标是将表达能力强的生成模型转化为有效的决策策略。
 
 **PO** 代表 **Policy Optimization（策略优化）**，**Infra** 体现了围绕这一研究方向构建可复用基础设施的目标。本仓库汇集相关方法和资源，现有实现通过各自的项目仓库运行。
+
+## 模型与数据集
+
+[浏览 POInfra 的 Hugging Face 资源合集](https://huggingface.co/collections/Guowei-Zou/poinfra-models-and-datasets)，或直接访问以下项目资源。
+
+| 项目 | 模型 | 数据集 |
+| --- | --- | --- |
+| **OGPO** | [Hugging Face](https://huggingface.co/ogpo-project/OGPO-checkpoints) | [Hugging Face](https://huggingface.co/datasets/ogpo-project/OGPO-datasets) |
+| **CoFlow** | [Hugging Face](https://huggingface.co/Guowei-Zou/CoFlow-checkpoints) | [Hugging Face](https://huggingface.co/datasets/Guowei-Zou/CoFlow-datasets) |
+| **MA-FPPO** | [Hugging Face](https://huggingface.co/ma-fppo/MA-FPPO) | — |
+| **G2MAF** | [Hugging Face](https://huggingface.co/g2maf/G2MAF) | — |
+| **MA-WAM** | [Hugging Face](https://huggingface.co/ma-wam/MA-WAM) | — |
 
 ## 视频介绍
 
