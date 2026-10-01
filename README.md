@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="#projects"><img src="https://img.shields.io/badge/Papers-arXiv-B31B1B?logo=arxiv" alt="Papers"></a>
-  <a href="https://huggingface.co/Guowei-Zou"><img src="https://img.shields.io/badge/Hugging_Face-Models_%26_Data-FFD21E?logo=huggingface" alt="Models and data"></a>
+  <a href="https://huggingface.co/collections/Guowei-Zou/poinfra-models-and-datasets"><img src="https://img.shields.io/badge/Hugging_Face-Models_%26_Data-FFD21E?logo=huggingface" alt="Models and data"></a>
   <a href="#getting-started"><img src="https://img.shields.io/badge/Getting_Started-Guide-8A2BE2?logo=readthedocs" alt="Getting started"></a>
   <a href="#projects"><img src="https://img.shields.io/badge/Code-Project_Repositories-181717?logo=github" alt="Project repositories"></a>
 </div>
@@ -23,6 +23,18 @@
 Our research began with **D2PPO**, which combines dispersive regularization for diffusion policy pretraining with PPO fine-tuning. The research extends to efficient one-step policies, coordinated multi-agent generation, online fine-tuning, and inference-time guidance and planning. The common goal is to turn expressive generative models into effective decision-making policies.
 
 **PO** stands for **Policy Optimization**, and **Infra** reflects our goal of building reusable infrastructure around this research. This repository brings together the methods and resources. Available implementations currently run through their individual project repositories.
+
+## Models and datasets
+
+[Browse the POInfra collection on Hugging Face](https://huggingface.co/collections/Guowei-Zou/poinfra-models-and-datasets), or open a project resource directly below.
+
+| Project | Models | Datasets |
+| --- | --- | --- |
+| **OGPO** | [Hugging Face](https://huggingface.co/ogpo-project/OGPO-checkpoints) | [Hugging Face](https://huggingface.co/datasets/ogpo-project/OGPO-datasets) |
+| **CoFlow** | [Hugging Face](https://huggingface.co/Guowei-Zou/CoFlow-checkpoints) | [Hugging Face](https://huggingface.co/datasets/Guowei-Zou/CoFlow-datasets) |
+| **MA-FPPO** | [Hugging Face](https://huggingface.co/ma-fppo/MA-FPPO) | — |
+| **G2MAF** | [Hugging Face](https://huggingface.co/g2maf/G2MAF) | — |
+| **MA-WAM** | [Hugging Face](https://huggingface.co/ma-wam/MA-WAM) | — |
 
 ## Video overview
 
