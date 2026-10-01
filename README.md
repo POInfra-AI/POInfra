@@ -31,7 +31,7 @@ Our research began with **D2PPO**, which combines dispersive regularization for 
 | Project | Models | Datasets |
 | --- | --- | --- |
 | **OGPO** | [Hugging Face](https://huggingface.co/ogpo-project/OGPO-checkpoints) | [Hugging Face](https://huggingface.co/datasets/ogpo-project/OGPO-datasets) |
-| **CoFlow** | [Hugging Face](https://huggingface.co/Guowei-Zou/CoFlow-checkpoints) | [Hugging Face](https://huggingface.co/datasets/Guowei-Zou/CoFlow-datasets) |
+| **CoFlow** | [Hugging Face](https://huggingface.co/coflow-project/CoFlow-checkpoints) | [Hugging Face](https://huggingface.co/datasets/coflow-project/CoFlow-datasets) |
 | **MA-FPPO** | [Hugging Face](https://huggingface.co/ma-fppo/MA-FPPO) | — |
 | **G2MAF** | [Hugging Face](https://huggingface.co/g2maf/G2MAF) | — |
 | **MA-WAM** | [Hugging Face](https://huggingface.co/ma-wam/MA-WAM) | — |
