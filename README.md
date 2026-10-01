@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/c93f9101-ff76-4da4-84df-8372ea182742
 - [2026/07] 🔥 **G2MAF** explores test-time gradient guidance for multi-agent flow policies. [Project](https://g2maf.github.io/) · [Paper](https://arxiv.org/abs/2609.31286) · [Code](https://github.com/g2maf/G2MAF).
 - [2026/07] 🔥 **MA-WAM** explores multi-agent world-action models for test-time planning. [Project](https://ma-wam.github.io/) · [Paper](https://arxiv.org/abs/2609.31281) · [Code](https://github.com/ma-wam/MA-WAM).
 - [2026/05] 🔥 **CoFlow** introduces coordinated few-step flow for offline multi-agent decision-making. [Project](https://guowei-zou.github.io/coflow/) · [Paper](https://arxiv.org/abs/2605.01457) · [Code](https://github.com/Guowei-Zou/coflow-release).
-- [2026/01] 🔥 The initial preprint of **OGPO** is available. The work is now accepted at **ACM MM 2026**. [Project](https://ogpo-project.github.io/) · [Paper](https://arxiv.org/abs/2601.20701) · [Code](https://github.com/ogpo-project/OGPO).
+- [2026/09] 🔥 The updated **OGPO** preprint (v2) is available. The work is now accepted at **ACM MM 2026**. [Project](https://ogpo-project.github.io/) · [Paper](https://arxiv.org/abs/2601.20701v2) · [Code](https://github.com/ogpo-project/OGPO).
 
 - [2025/10] 🔥 **DM1** introduces MeanFlow with dispersive regularization for one-step robotic manipulation. [Project](https://guowei-zou.github.io/dm1/) · [Paper](https://arxiv.org/abs/2510.07865) · [Code](https://github.com/Guowei-Zou/dm1-release).
 - [2025/08] 🔥 **D2PPO** introduces diffusion policy optimization with dispersive loss. The work is now accepted at **AAAI 2026**. [Project](https://guowei-zou.github.io/d2ppo/) · [Paper](https://arxiv.org/abs/2508.02644) · [Code](https://github.com/Guowei-Zou/d2ppo-release).
@@ -76,7 +76,7 @@ Evaluation covers task success rate, return, win rate, inference time, and perfo
 | --- | --- | --- | --- | --- |
 | **D2PPO** | Diffusion policy pretraining with dispersive loss and PPO fine-tuning | [AAAI 2026 / arXiv](https://arxiv.org/abs/2508.02644) | [Website](https://guowei-zou.github.io/d2ppo/) | [D2PPO-release](https://github.com/Guowei-Zou/d2ppo-release) |
 | **DM1** | MeanFlow with dispersive regularization for one-step robotic manipulation | [arXiv](https://arxiv.org/abs/2510.07865) | [Website](https://guowei-zou.github.io/dm1/) | [DM1-release](https://github.com/Guowei-Zou/dm1-release) |
-| **OGPO** | One-step generative policy optimization for real-time robot control | [ACM MM 2026 / arXiv](https://arxiv.org/abs/2601.20701) | [Website](https://ogpo-project.github.io/) | [OGPO-release](https://github.com/ogpo-project/OGPO) |
+| **OGPO** | One-step generative policy optimization for real-time robot control | [ACM MM 2026 / arXiv](https://arxiv.org/abs/2601.20701v2) | [Website](https://ogpo-project.github.io/) | [OGPO](https://github.com/ogpo-project/OGPO) |
 
 ### Multi-agent decision-making
 
