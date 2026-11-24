@@ -32,6 +32,7 @@
 | --- | --- | --- |
 | **OGPO** | [Hugging Face](https://huggingface.co/ogpo-project/OGPO-checkpoints) | [Hugging Face](https://huggingface.co/datasets/ogpo-project/OGPO-datasets) |
 | **CoFlow** | [Hugging Face](https://huggingface.co/coflow-project/CoFlow-checkpoints) | [Hugging Face](https://huggingface.co/datasets/coflow-project/CoFlow-datasets) |
+| **TeamFlowRL** | [Hugging Face](https://huggingface.co/teamflowrl/TeamFlowRL) | — |
 | **MA-FPPO** | [Hugging Face](https://huggingface.co/ma-fppo/MA-FPPO) | — |
 | **G2MAF** | [Hugging Face](https://huggingface.co/g2maf/G2MAF) | — |
 | **MA-WAM** | [Hugging Face](https://huggingface.co/ma-wam/MA-WAM) | — |
@@ -48,6 +49,7 @@ https://github.com/user-attachments/assets/c93f9101-ff76-4da4-84df-8372ea182742
 
 ## 最新动态
 
+- [2026/11] 🔥 **TeamFlowRL** 开源：首个对离线预训练的多智能体流策略进行在线强化学习微调的框架，提供代码和 50 组检查点。 [Project](https://teamflowrl.github.io/) · [Code](https://github.com/teamflowrl/TeamFlowRL) · [Models](https://huggingface.co/teamflowrl/TeamFlowRL).
 - [2026/09] 🔥 **POInfra** 正式上线，汇集从 D2PPO 开始的生成模型策略优化研究。
 - [2026/09] 🔥 **MA-FPPO** 预印本已在 arXiv 上线，项目页提供策略执行视频，以及多智能体流预训练与在线微调的演示。 [Project](https://ma-fppo.github.io/) · [Paper](https://arxiv.org/abs/2609.32594) · [Code](https://github.com/ma-fppo/MA-FPPO) · [Models](https://huggingface.co/ma-fppo/MA-FPPO).
 - [2026/07] 🔥 **G2MAF** 探索多智能体流策略的测试时梯度引导。 [Project](https://g2maf.github.io/) · [Paper](https://arxiv.org/abs/2609.31286) · [Code](https://github.com/g2maf/G2MAF).
@@ -70,7 +72,7 @@ POInfra 的核心目标是推动具身智能落地，让机器人走进工厂和
 
 ### 通过环境反馈优化生成策略
 
-策略优化是 POInfra 的核心。**D2PPO** 通过 PPO 微调扩散策略，**OGPO** 研究面向实时机器人控制的一步生成策略优化，**MA-FPPO** 研究多智能体决策中的流策略预训练与在线微调。围绕这些不同类型的生成模型，我们研究如何利用已有经验，并通过任务反馈探索更好的行为。
+策略优化是 POInfra 的核心。**D2PPO** 通过 PPO 微调扩散策略，**OGPO** 研究面向实时机器人控制的一步生成策略优化，**MA-FPPO** 研究多智能体决策中的流策略预训练与在线微调。**TeamFlowRL** 在去噪轨迹上构建团队策略目标，以共享团队优势和逐智能体的轨迹比率裁剪在线微调去中心化流策略。围绕这些不同类型的生成模型，我们研究如何利用已有经验，并通过任务反馈探索更好的行为。
 
 ### 在执行时兼顾响应速度与决策质量
 
@@ -96,6 +98,7 @@ POInfra 的核心目标是推动具身智能落地，让机器人走进工厂和
 | --- | --- | --- | --- | --- |
 | **CoFlow** | 面向离线多智能体决策的协同少步流生成 | [arXiv](https://arxiv.org/abs/2605.01457) | [项目页](https://guowei-zou.github.io/coflow/) | [CoFlow-release](https://github.com/Guowei-Zou/coflow-release) |
 | **MA-FPPO** | 多智能体流预训练策略优化 | [arXiv](https://arxiv.org/abs/2609.32594) · [Models](https://huggingface.co/ma-fppo/MA-FPPO) | [项目页](https://ma-fppo.github.io/) | [MA-FPPO-release](https://github.com/ma-fppo/MA-FPPO) |
+| **TeamFlowRL** | 多智能体流策略的在线团队策略优化 | [Models](https://huggingface.co/teamflowrl/TeamFlowRL) | [项目页](https://teamflowrl.github.io/) | [TeamFlowRL](https://github.com/teamflowrl/TeamFlowRL) |
 | **G2MAF** | 多智能体流策略的测试时梯度引导 | [arXiv](https://arxiv.org/abs/2609.31286) | [项目页](https://g2maf.github.io/) | [G2MAF-release](https://github.com/g2maf/G2MAF) |
 | **MA-WAM** | 用于测试时规划的多智能体世界动作建模 | [arXiv](https://arxiv.org/abs/2609.31281) | [项目页](https://ma-wam.github.io/) | [MA-WAM-release](https://github.com/ma-wam/MA-WAM) |
 
@@ -135,6 +138,14 @@ POInfra 的核心目标是推动具身智能落地，让机器人走进工厂和
 
 [项目页](https://ma-fppo.github.io/)
 
+### TeamFlowRL
+
+<p align="center">
+  <a href="https://teamflowrl.github.io/"><img src="assets/motivation/teamflowrl.png" alt="TeamFlowRL 研究动机" width="900"></a>
+</p>
+
+[项目页](https://teamflowrl.github.io/)
+
 ### G2MAF
 
 <p align="center">
@@ -161,6 +172,7 @@ POInfra 的核心目标是推动具身智能落地，让机器人走进工厂和
 | 研究机器人操作的一步生成式策略 | [DM1 安装与评估](https://github.com/Guowei-Zou/dm1-release) |
 | 研究一步策略的在线优化 | [OGPO 训练与评估](https://github.com/ogpo-project/OGPO) |
 | 使用离线多智能体数据训练协同流模型 | [CoFlow 安装与实验](https://github.com/Guowei-Zou/coflow-release#setup) |
+| 对离线预训练的多智能体流策略做在线强化学习微调 | [TeamFlowRL 训练与评估](https://github.com/teamflowrl/TeamFlowRL) |
 
 例如，可以通过以下命令获取 D2PPO 实现：
 

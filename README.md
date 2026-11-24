@@ -32,6 +32,7 @@ Our research began with **D2PPO**, which combines dispersive regularization for 
 | --- | --- | --- |
 | **OGPO** | [Hugging Face](https://huggingface.co/ogpo-project/OGPO-checkpoints) | [Hugging Face](https://huggingface.co/datasets/ogpo-project/OGPO-datasets) |
 | **CoFlow** | [Hugging Face](https://huggingface.co/coflow-project/CoFlow-checkpoints) | [Hugging Face](https://huggingface.co/datasets/coflow-project/CoFlow-datasets) |
+| **TeamFlowRL** | [Hugging Face](https://huggingface.co/teamflowrl/TeamFlowRL) | — |
 | **MA-FPPO** | [Hugging Face](https://huggingface.co/ma-fppo/MA-FPPO) | — |
 | **G2MAF** | [Hugging Face](https://huggingface.co/g2maf/G2MAF) | — |
 | **MA-WAM** | [Hugging Face](https://huggingface.co/ma-wam/MA-WAM) | — |
@@ -48,6 +49,7 @@ https://github.com/user-attachments/assets/c93f9101-ff76-4da4-84df-8372ea182742
 
 ## What's NEW!
 
+- [2026/11] 🔥 **TeamFlowRL** is open-sourced: the first framework for online RL fine-tuning of offline-pretrained multi-agent flow policies, with code and checkpoints for 50 configurations. [Project](https://teamflowrl.github.io/) · [Code](https://github.com/teamflowrl/TeamFlowRL) · [Models](https://huggingface.co/teamflowrl/TeamFlowRL).
 - [2026/09] 🔥 **POInfra** is launched, bringing together our research on policy optimization for generative models, beginning with D2PPO.
 - [2026/09] 🔥 **MA-FPPO** is now available on arXiv. The project page includes policy rollouts and a presentation of multi-agent flow pretraining and online fine-tuning. [Project](https://ma-fppo.github.io/) · [Paper](https://arxiv.org/abs/2609.32594) · [Code](https://github.com/ma-fppo/MA-FPPO) · [Models](https://huggingface.co/ma-fppo/MA-FPPO).
 - [2026/07] 🔥 **G2MAF** explores test-time gradient guidance for multi-agent flow policies. [Project](https://g2maf.github.io/) · [Paper](https://arxiv.org/abs/2609.31286) · [Code](https://github.com/g2maf/G2MAF).
@@ -70,7 +72,7 @@ Offline demonstrations and interaction trajectories provide the behavioral exper
 
 ### Improve generative policies through environment feedback
 
-Policy optimization is at the core of POInfra. **D2PPO** fine-tunes diffusion policies with PPO, **OGPO** develops one-step generative policy optimization for real-time robot control, and **MA-FPPO** studies flow policy pretraining and online fine-tuning for multi-agent decision-making. Across these model families, we study how policies can use prior experience while exploring better behavior through task feedback.
+Policy optimization is at the core of POInfra. **D2PPO** fine-tunes diffusion policies with PPO, **OGPO** develops one-step generative policy optimization for real-time robot control, and **MA-FPPO** studies flow policy pretraining and online fine-tuning for multi-agent decision-making. **TeamFlowRL** fine-tunes decentralized flow policies online with a team policy objective over denoising trajectories, a shared team advantage and separate clipping of each agent's trajectory ratio. Across these model families, we study how policies can use prior experience while exploring better behavior through task feedback.
 
 ### Balance responsiveness and decision quality during execution
 
@@ -96,6 +98,7 @@ Evaluation covers task success rate, return, win rate, inference time, and perfo
 | --- | --- | --- | --- | --- |
 | **CoFlow** | Coordinated few-step flow for offline multi-agent decision-making | [arXiv](https://arxiv.org/abs/2605.01457) | [Website](https://guowei-zou.github.io/coflow/) | [CoFlow-release](https://github.com/Guowei-Zou/coflow-release) |
 | **MA-FPPO** | Multi-agent flow-pretrained policy optimization | [arXiv](https://arxiv.org/abs/2609.32594) · [Models](https://huggingface.co/ma-fppo/MA-FPPO) | [Website](https://ma-fppo.github.io/) | [MA-FPPO-release](https://github.com/ma-fppo/MA-FPPO) |
+| **TeamFlowRL** | Online team policy optimization of decentralized multi-agent flow policies | [Models](https://huggingface.co/teamflowrl/TeamFlowRL) | [Website](https://teamflowrl.github.io/) | [TeamFlowRL](https://github.com/teamflowrl/TeamFlowRL) |
 | **G2MAF** | Test-time gradient guidance for multi-agent flow policies | [arXiv](https://arxiv.org/abs/2609.31286) | [Website](https://g2maf.github.io/) | [G2MAF-release](https://github.com/g2maf/G2MAF) |
 | **MA-WAM** | Multi-agent world-action modeling for test-time planning | [arXiv](https://arxiv.org/abs/2609.31281) | [Website](https://ma-wam.github.io/) | [MA-WAM-release](https://github.com/ma-wam/MA-WAM) |
 
@@ -135,6 +138,14 @@ All linked repositories are public. G2MAF and MA-WAM currently contain a project
 
 [Project](https://ma-fppo.github.io/)
 
+### TeamFlowRL
+
+<p align="center">
+  <a href="https://teamflowrl.github.io/"><img src="assets/motivation/teamflowrl.png" alt="TeamFlowRL research motivation" width="900"></a>
+</p>
+
+[Project](https://teamflowrl.github.io/)
+
 ### G2MAF
 
 <p align="center">
@@ -161,6 +172,7 @@ Choose the implementation that matches the question you want to explore:
 | Study one-step generative policies for manipulation | [DM1 setup and evaluation](https://github.com/Guowei-Zou/dm1-release) |
 | Study online optimization of one-step policies | [OGPO training and evaluation](https://github.com/ogpo-project/OGPO) |
 | Train coordinated flow models on offline multi-agent data | [CoFlow setup and experiments](https://github.com/Guowei-Zou/coflow-release#setup) |
+| Fine-tune offline-pretrained multi-agent flow policies online | [TeamFlowRL training and evaluation](https://github.com/teamflowrl/TeamFlowRL) |
 
 For example, obtain the D2PPO implementation with:
 
