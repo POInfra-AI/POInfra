@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/c93f9101-ff76-4da4-84df-8372ea182742
 
 ## 最新动态
 
-- [2026/11] 🔥 **TeamFlowRL** 开源：首个对离线预训练的多智能体流策略进行在线强化学习微调的框架，提供代码和 50 组检查点。 [Project](https://teamflowrl.github.io/) · [Code](https://github.com/teamflowrl/TeamFlowRL) · [Models](https://huggingface.co/teamflowrl/TeamFlowRL).
+- [2026/11] 🔥 **TeamFlowRL** 开源：首个对离线预训练的多智能体流策略进行在线强化学习微调的框架，提供代码和 50 组检查点。 [Project](https://teamflowrl.github.io/) · [Paper](https://arxiv.org/abs/2611.32645) · [Code](https://github.com/teamflowrl/TeamFlowRL) · [Models](https://huggingface.co/teamflowrl/TeamFlowRL).
 - [2026/09] 🔥 **POInfra** 正式上线，汇集从 D2PPO 开始的生成模型策略优化研究。
 - [2026/09] 🔥 **MA-FPPO** 预印本已在 arXiv 上线，项目页提供策略执行视频，以及多智能体流预训练与在线微调的演示。 [Project](https://ma-fppo.github.io/) · [Paper](https://arxiv.org/abs/2609.32594) · [Code](https://github.com/ma-fppo/MA-FPPO) · [Models](https://huggingface.co/ma-fppo/MA-FPPO).
 - [2026/07] 🔥 **G2MAF** 探索多智能体流策略的测试时梯度引导。 [Project](https://g2maf.github.io/) · [Paper](https://arxiv.org/abs/2609.31286) · [Code](https://github.com/g2maf/G2MAF).
@@ -98,7 +98,7 @@ POInfra 的核心目标是推动具身智能落地，让机器人走进工厂和
 | --- | --- | --- | --- | --- |
 | **CoFlow** | 面向离线多智能体决策的协同少步流生成 | [arXiv](https://arxiv.org/abs/2605.01457) | [项目页](https://guowei-zou.github.io/coflow/) | [CoFlow-release](https://github.com/Guowei-Zou/coflow-release) |
 | **MA-FPPO** | 多智能体流预训练策略优化 | [arXiv](https://arxiv.org/abs/2609.32594) · [Models](https://huggingface.co/ma-fppo/MA-FPPO) | [项目页](https://ma-fppo.github.io/) | [MA-FPPO-release](https://github.com/ma-fppo/MA-FPPO) |
-| **TeamFlowRL** | 多智能体流策略的在线团队策略优化 | [Models](https://huggingface.co/teamflowrl/TeamFlowRL) | [项目页](https://teamflowrl.github.io/) | [TeamFlowRL](https://github.com/teamflowrl/TeamFlowRL) |
+| **TeamFlowRL** | 多智能体流策略的在线团队策略优化 | [arXiv](https://arxiv.org/abs/2611.32645) · [Models](https://huggingface.co/teamflowrl/TeamFlowRL) | [项目页](https://teamflowrl.github.io/) | [TeamFlowRL](https://github.com/teamflowrl/TeamFlowRL) |
 | **G2MAF** | 多智能体流策略的测试时梯度引导 | [arXiv](https://arxiv.org/abs/2609.31286) | [项目页](https://g2maf.github.io/) | [G2MAF-release](https://github.com/g2maf/G2MAF) |
 | **MA-WAM** | 用于测试时规划的多智能体世界动作建模 | [arXiv](https://arxiv.org/abs/2609.31281) | [项目页](https://ma-wam.github.io/) | [MA-WAM-release](https://github.com/ma-wam/MA-WAM) |
 

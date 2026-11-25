@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/c93f9101-ff76-4da4-84df-8372ea182742
 
 ## What's NEW!
 
-- [2026/11] 🔥 **TeamFlowRL** is open-sourced: the first framework for online RL fine-tuning of offline-pretrained multi-agent flow policies, with code and checkpoints for 50 configurations. [Project](https://teamflowrl.github.io/) · [Code](https://github.com/teamflowrl/TeamFlowRL) · [Models](https://huggingface.co/teamflowrl/TeamFlowRL).
+- [2026/11] 🔥 **TeamFlowRL** is open-sourced: the first framework for online RL fine-tuning of offline-pretrained multi-agent flow policies, with code and checkpoints for 50 configurations. [Project](https://teamflowrl.github.io/) · [Paper](https://arxiv.org/abs/2611.32645) · [Code](https://github.com/teamflowrl/TeamFlowRL) · [Models](https://huggingface.co/teamflowrl/TeamFlowRL).
 - [2026/09] 🔥 **POInfra** is launched, bringing together our research on policy optimization for generative models, beginning with D2PPO.
 - [2026/09] 🔥 **MA-FPPO** is now available on arXiv. The project page includes policy rollouts and a presentation of multi-agent flow pretraining and online fine-tuning. [Project](https://ma-fppo.github.io/) · [Paper](https://arxiv.org/abs/2609.32594) · [Code](https://github.com/ma-fppo/MA-FPPO) · [Models](https://huggingface.co/ma-fppo/MA-FPPO).
 - [2026/07] 🔥 **G2MAF** explores test-time gradient guidance for multi-agent flow policies. [Project](https://g2maf.github.io/) · [Paper](https://arxiv.org/abs/2609.31286) · [Code](https://github.com/g2maf/G2MAF).
@@ -98,7 +98,7 @@ Evaluation covers task success rate, return, win rate, inference time, and perfo
 | --- | --- | --- | --- | --- |
 | **CoFlow** | Coordinated few-step flow for offline multi-agent decision-making | [arXiv](https://arxiv.org/abs/2605.01457) | [Website](https://guowei-zou.github.io/coflow/) | [CoFlow-release](https://github.com/Guowei-Zou/coflow-release) |
 | **MA-FPPO** | Multi-agent flow-pretrained policy optimization | [arXiv](https://arxiv.org/abs/2609.32594) · [Models](https://huggingface.co/ma-fppo/MA-FPPO) | [Website](https://ma-fppo.github.io/) | [MA-FPPO-release](https://github.com/ma-fppo/MA-FPPO) |
-| **TeamFlowRL** | Online team policy optimization of decentralized multi-agent flow policies | [Models](https://huggingface.co/teamflowrl/TeamFlowRL) | [Website](https://teamflowrl.github.io/) | [TeamFlowRL](https://github.com/teamflowrl/TeamFlowRL) |
+| **TeamFlowRL** | Online team policy optimization of decentralized multi-agent flow policies | [arXiv](https://arxiv.org/abs/2611.32645) · [Models](https://huggingface.co/teamflowrl/TeamFlowRL) | [Website](https://teamflowrl.github.io/) | [TeamFlowRL](https://github.com/teamflowrl/TeamFlowRL) |
 | **G2MAF** | Test-time gradient guidance for multi-agent flow policies | [arXiv](https://arxiv.org/abs/2609.31286) | [Website](https://g2maf.github.io/) | [G2MAF-release](https://github.com/g2maf/G2MAF) |
 | **MA-WAM** | Multi-agent world-action modeling for test-time planning | [arXiv](https://arxiv.org/abs/2609.31281) | [Website](https://ma-wam.github.io/) | [MA-WAM-release](https://github.com/ma-wam/MA-WAM) |
 
