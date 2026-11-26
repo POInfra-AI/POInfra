@@ -24,19 +24,6 @@ Our research began with **D2PPO**, which combines dispersive regularization for 
 
 **PO** stands for **Policy Optimization**, and **Infra** reflects our goal of building reusable infrastructure around this research. This repository brings together the methods and resources. Available implementations currently run through their individual project repositories.
 
-## Models and datasets
-
-[Browse the POInfra collection on Hugging Face](https://huggingface.co/collections/Guowei-Zou/poinfra-models-and-datasets), or open a project resource directly below.
-
-| Project | Models | Datasets |
-| --- | --- | --- |
-| **OGPO** | [Hugging Face](https://huggingface.co/ogpo-project/OGPO-checkpoints) | [Hugging Face](https://huggingface.co/datasets/ogpo-project/OGPO-datasets) |
-| **CoFlow** | [Hugging Face](https://huggingface.co/coflow-project/CoFlow-checkpoints) | [Hugging Face](https://huggingface.co/datasets/coflow-project/CoFlow-datasets) |
-| **TeamFlowRL** | [Hugging Face](https://huggingface.co/teamflowrl/TeamFlowRL) | — |
-| **MA-FPPO** | [Hugging Face](https://huggingface.co/ma-fppo/MA-FPPO) | — |
-| **G2MAF** | [Hugging Face](https://huggingface.co/g2maf/G2MAF) | — |
-| **MA-WAM** | [Hugging Face](https://huggingface.co/ma-wam/MA-WAM) | — |
-
 ## Video overview
 
 A two-minute introduction to POInfra, with real robot demonstrations and multi-agent environments.

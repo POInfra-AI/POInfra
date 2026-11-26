@@ -24,19 +24,6 @@
 
 **PO** 代表 **Policy Optimization（策略优化）**，**Infra** 体现了围绕这一研究方向构建可复用基础设施的目标。本仓库汇集相关方法和资源，现有实现通过各自的项目仓库运行。
 
-## 模型与数据集
-
-[浏览 POInfra 的 Hugging Face 资源合集](https://huggingface.co/collections/Guowei-Zou/poinfra-models-and-datasets)，或直接访问以下项目资源。
-
-| 项目 | 模型 | 数据集 |
-| --- | --- | --- |
-| **OGPO** | [Hugging Face](https://huggingface.co/ogpo-project/OGPO-checkpoints) | [Hugging Face](https://huggingface.co/datasets/ogpo-project/OGPO-datasets) |
-| **CoFlow** | [Hugging Face](https://huggingface.co/coflow-project/CoFlow-checkpoints) | [Hugging Face](https://huggingface.co/datasets/coflow-project/CoFlow-datasets) |
-| **TeamFlowRL** | [Hugging Face](https://huggingface.co/teamflowrl/TeamFlowRL) | — |
-| **MA-FPPO** | [Hugging Face](https://huggingface.co/ma-fppo/MA-FPPO) | — |
-| **G2MAF** | [Hugging Face](https://huggingface.co/g2maf/G2MAF) | — |
-| **MA-WAM** | [Hugging Face](https://huggingface.co/ma-wam/MA-WAM) | — |
-
 ## 视频介绍
 
 两分钟了解 POInfra 的整体思路，包含真实机械臂与多智能体环境演示。
