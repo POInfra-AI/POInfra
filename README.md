@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/c93f9101-ff76-4da4-84df-8372ea182742
 
 ## What's NEW!
 
-- [2026/11] 🔥 **TeamFlowRL** is open-sourced: the first framework for online RL fine-tuning of offline-pretrained multi-agent flow policies, with code and checkpoints for 50 configurations. [Project](https://teamflowrl.github.io/) · [Paper](https://arxiv.org/abs/2611.32645) · [Code](https://github.com/teamflowrl/TeamFlowRL) · [Models](https://huggingface.co/teamflowrl/TeamFlowRL).
+- [2026/11] 🔥 **TeamFlowRL** is open-sourced: the first framework for online RL fine-tuning of offline-pretrained multi-agent flow policies, with code and checkpoints for 50 configurations. [Project](https://teamflowrl.github.io/) · [Paper](https://arxiv.org/abs/2611.32645) · [Video](https://youtu.be/LGSe9EpH0lU) · [Code](https://github.com/teamflowrl/TeamFlowRL) · [Models](https://huggingface.co/teamflowrl/TeamFlowRL).
 - [2026/09] 🔥 **POInfra** is launched, bringing together our research on policy optimization for generative models, beginning with D2PPO.
 - [2026/09] 🔥 **MA-FPPO** is now available on arXiv. The project page includes policy rollouts and a presentation of multi-agent flow pretraining and online fine-tuning. [Project](https://ma-fppo.github.io/) · [Paper](https://arxiv.org/abs/2609.32594) · [Code](https://github.com/ma-fppo/MA-FPPO) · [Models](https://huggingface.co/ma-fppo/MA-FPPO).
 - [2026/07] 🔥 **G2MAF** explores test-time gradient guidance for multi-agent flow policies. [Project](https://g2maf.github.io/) · [Paper](https://arxiv.org/abs/2609.31286) · [Code](https://github.com/g2maf/G2MAF).
