@@ -37,14 +37,14 @@ https://github.com/user-attachments/assets/c93f9101-ff76-4da4-84df-8372ea182742
 
 - [2026/11] 🔥 **TeamFlowRL** is open-sourced: the first framework for online RL fine-tuning of offline-pretrained multi-agent flow policies, with code and checkpoints for 50 configurations. [Project](https://teamflowrl.github.io/) · [Paper](https://arxiv.org/abs/2611.32645) · [Video](https://youtu.be/LGSe9EpH0lU) · [Code](https://github.com/teamflowrl/TeamFlowRL) · [Models](https://huggingface.co/teamflowrl/TeamFlowRL).
 - [2026/09] 🔥 **POInfra** is launched, bringing together our research on policy optimization for generative models, beginning with D2PPO.
-- [2026/09] 🔥 **MA-FPPO** is now available on arXiv. The project page includes policy rollouts and a presentation of multi-agent flow pretraining and online fine-tuning. [Project](https://ma-fppo.github.io/) · [Paper](https://arxiv.org/abs/2609.32594) · [Code](https://github.com/ma-fppo/MA-FPPO) · [Models](https://huggingface.co/ma-fppo/MA-FPPO).
-- [2026/07] 🔥 **G2MAF** explores test-time gradient guidance for multi-agent flow policies. [Project](https://g2maf.github.io/) · [Paper](https://arxiv.org/abs/2609.31286) · [Code](https://github.com/g2maf/G2MAF).
-- [2026/07] 🔥 **MA-WAM** explores multi-agent world-action models for test-time planning. [Project](https://ma-wam.github.io/) · [Paper](https://arxiv.org/abs/2609.31281) · [Code](https://github.com/ma-wam/MA-WAM).
-- [2026/05] 🔥 **CoFlow** introduces coordinated few-step flow for offline multi-agent decision-making. [Project](https://guowei-zou.github.io/coflow/) · [Paper](https://arxiv.org/abs/2605.01457) · [Code](https://github.com/Guowei-Zou/coflow-release).
-- [2026/09] 🔥 The updated **OGPO** preprint (v2) is available. The work is now accepted at **ACM MM 2026**. [Project](https://ogpo-project.github.io/) · [Paper](https://arxiv.org/abs/2601.20701v2) · [Code](https://github.com/ogpo-project/OGPO).
+- [2026/09] **MA-FPPO** is now available on arXiv. The project page includes policy rollouts and a presentation of multi-agent flow pretraining and online fine-tuning. [Project](https://ma-fppo.github.io/) · [Paper](https://arxiv.org/abs/2609.32594) · [Code](https://github.com/ma-fppo/MA-FPPO) · [Models](https://huggingface.co/ma-fppo/MA-FPPO).
+- [2026/07] **G2MAF** explores test-time gradient guidance for multi-agent flow policies. [Project](https://g2maf.github.io/) · [Paper](https://arxiv.org/abs/2609.31286) · [Code](https://github.com/g2maf/G2MAF).
+- [2026/07] **MA-WAM** explores multi-agent world-action models for test-time planning. [Project](https://ma-wam.github.io/) · [Paper](https://arxiv.org/abs/2609.31281) · [Code](https://github.com/ma-wam/MA-WAM).
+- [2026/05] **CoFlow** introduces coordinated few-step flow for offline multi-agent decision-making. [Project](https://guowei-zou.github.io/coflow/) · [Paper](https://arxiv.org/abs/2605.01457) · [Code](https://github.com/Guowei-Zou/coflow-release).
+- [2026/09] The updated **OGPO** preprint (v2) is available. The work is now accepted at **ACM MM 2026**. [Project](https://ogpo-project.github.io/) · [Paper](https://arxiv.org/abs/2601.20701v2) · [Code](https://github.com/ogpo-project/OGPO).
 
-- [2025/10] 🔥 **DM1** introduces MeanFlow with dispersive regularization for one-step robotic manipulation. [Project](https://guowei-zou.github.io/dm1/) · [Paper](https://arxiv.org/abs/2510.07865) · [Code](https://github.com/Guowei-Zou/dm1-release).
-- [2025/08] 🔥 **D2PPO** introduces diffusion policy optimization with dispersive loss. The work is now accepted at **AAAI 2026**. [Project](https://guowei-zou.github.io/d2ppo/) · [Paper](https://arxiv.org/abs/2508.02644) · [Code](https://github.com/Guowei-Zou/d2ppo-release).
+- [2025/10] **DM1** introduces MeanFlow with dispersive regularization for one-step robotic manipulation. [Project](https://guowei-zou.github.io/dm1/) · [Paper](https://arxiv.org/abs/2510.07865) · [Code](https://github.com/Guowei-Zou/dm1-release).
+- [2025/08] **D2PPO** introduces diffusion policy optimization with dispersive loss. The work is now accepted at **AAAI 2026**. [Project](https://guowei-zou.github.io/d2ppo/) · [Paper](https://arxiv.org/abs/2508.02644) · [Code](https://github.com/Guowei-Zou/d2ppo-release).
 
 ## Design Philosophy and Research Directions
 
